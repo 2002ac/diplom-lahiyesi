@@ -1,0 +1,104 @@
+body {
+  font-family: "Electrolize", sans-serif;
+  height: 300vh;
+
+  .navbar {
+    background-color: black;
+    height: 60px;
+    color: white;
+    position: sticky;
+    top: 0;
+    .navbar-wrapper {
+      height: 100%;
+      padding: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo-wrapper {
+        .logo {
+          color: red;
+          font-size: 30px;
+        }
+      }
+      .menu-container {
+        .menu-list {
+          display: flex;
+          list-style: none;
+          column-gap: 30px;
+          padding: 0;
+          .active {
+            font-weight: bold;
+          }
+          .menu-list-item {
+            cursor: pointer;
+            &:hover {
+              color: white;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+      .profile-container {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        .profil-pictures {
+          width: 32px;
+          height: 32px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+        .profile-text-container {
+          display: flex;
+          align-items: center;
+          column-gap: 5px;
+          line-height: 1px;
+          // .profile-text {}
+        }
+        .toggle {
+          width: 40px;
+          height: 20px;
+          border-radius: 30px;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          background-color: white;
+          .toggle-icon {
+            color: goldenrod;
+          }
+          .toggle-top {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            position: absolute;
+            right: 1px;
+            background-color: black;
+          }
+        }
+      }
+    }
+  }
+  // nav bar son
+
+  // sidebar start
+  .sidebar {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    row-gap: 40px;
+    i {
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  // sidebar son
+}
