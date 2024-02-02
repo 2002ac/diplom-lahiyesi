@@ -1,5 +1,4 @@
 body {
-  font-family: "Electrolize", sans-serif;
   height: 300vh;
 
   .navbar {
@@ -8,6 +7,7 @@ body {
     color: white;
     position: sticky;
     top: 0;
+    z-index: 1000;
     .navbar-wrapper {
       height: 100%;
       padding: 0 50px;
@@ -101,4 +101,36 @@ body {
     }
   }
   // sidebar son
+
+  .container {
+    margin-left: 50px;
+    margin-top: 60px;
+    height: 100vh;
+    background-color: #01000c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color: white;
+      font-size: 55px;
+      margin-top: 30px;
+  }
+  .swiper {
+      width: 90%;
+      padding-top: 50px;
+      height: 100%;
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+
+        img {
+          display: block;
+          width: 100%;
+          -webkit-box-reflect: below 1px linear-gradient(transparent , transparent , #0002 , #0004);
+        }
+      }
+    }
+  }
 }
