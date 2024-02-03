@@ -1,10 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Electrolize", sans-serif;
-}
-
-ul {
+a {
+    text-decoration: none;
+  }
+  
+  li {
     list-style: none;
-}
+  }
+  
+  section {
+    padding: 3rem 0 2rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .bx {
+    cursor: pointer;
+  }
+  
+  body {
+    background: var(--body-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+  }

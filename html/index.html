@@ -26,107 +26,168 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- fav link -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
+    <!-- boxicons link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/main.min.css" />
   </head>
   <body>
-    <!-- nav bar start-->
-    <div class="navbar">
-      <div class="navbar-wrapper">
-        <div class="logo-wrapper">
-          <h1 class="logo">FilmIzle</h1>
-        </div>
-        <div class="menu-container">
-          <ul class="menu-list">
-            <li class="menu-list-item active">Esas Seyfe</li>
-            <li class="menu-list-item"></li>
-            <li class="menu-list-item">Siyahim</li>
-            <li class="menu-list-item">Seriallar</li>
-            <li class="menu-list-item">Novler</li>
-            <li class="menu-list-item">Secimler</li>
-            <li class="menu-list-item">Elaqe</li>
-          </ul>
-        </div>
-        <div class="profile-container">
-          <img
-            class="profil-pictures"
-            src="./assets/img/img1.jpeg"
-            alt="profil sekli"
+    <!-- header -->
+    <header>
+      <!-- nav -->
+      <div class="nav container">
+        <!-- logo -->
+        <a href="index.html" class="logo">Filim<span>Izle</span> </a>
+        <!-- Search -->
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Search Movies..."
           />
-          <div class="profile-text-container">
-            <span class="profile-text">Hesabim</span>
-            <i class="bi bi-caret-down-fill"></i>
-          </div>
-          <div class="toggle">
-            <i class="bi bi-moon-fill toggle-icon"></i>
-            <i class="bi bi-brightness-high-fill toggle-icon"></i>
-            <div class="toggle-top"></div>
-          </div>
+          <i class="bx bx-search"></i>
+        </div>
+        <!-- User -->
+        <a href="#" class="user">
+          <img src="/html/assets/img/img1.jpeg" alt="" class="user-img" />
+        </a>
+        <!-- Nav bar-->
+        <div class="navbar">
+          <a href="#home" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explore</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Movies</span>
+          </a>
+          <a href="#home" class="nav-link">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Fovorite</span>
+          </a>
         </div>
       </div>
-    </div>
-    <!-- nav bar end-->
+    </header>
 
-    <!-- side bar start-->
-    <div class="sidebar">
-      <i class="bi bi-search"></i>
-      <i class="bi bi-house-door-fill"></i>
-      <i class="bi bi-people-fill"></i>
-      <i class="bi bi-bookmarks-fill"></i>
-      <i class="bi bi-hourglass-top"></i>
-      <i class="bi bi-cart-fill"></i>
-      <i class="bi bi-gear-fill"></i>
-    </div>
-    <!-- side bar end-->
+    <!--Home-->
+    <section class="home container" id="home">
+      <!-- home image -->
+      <img src="/html/assets/img/captan-marver.jpeg" alt="" class="home-img" />
+      <!-- home text -->
+      <div class="home-text">
+        <h1 class="home-title">Captain Marvel</h1>
+        <p>Relasing 2019</p>
+        <a href="#" class="watch-btn">
+          <i class="bx bx-right-arrow"></i>
+          <span>Watch the Trailer</span>
+        </a>
+      </div>
+    </section>
+    <!-- home end -->
 
-    <div class="container">
-      <h1>New Movies</h1>
+    <div class="contayner">
+      <h1>Populyar Movies</h1>
       <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/barbie-25-98783.webp" alt="">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/barbie-25-98783.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/blue-beetle-28604.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/buyu-de-gel-39310.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/extraction-2-izle-3-52777.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/fullhd-oppenheimer-izle.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/luther-batan-gunes-89290.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/mission-impossible-7-izle-1-89708.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/transformers-7-canavarlarin-yukselisi-izle-1-14180.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/cadilar-bayrami-sona-eriyor-halloween-ends-2-18418.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/esrarengiz-canavar-troll-44591.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/hizli-ve-ofkeli-10-fast-x-fhd4-84704.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/fullhd-moonfall-izle.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/teen-wolf-filmi-66010.webp"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/html/assets/img/movelistitem/uc-bin-yillik-bekleyis-42598.webp"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/blue-beetle-28604.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/buyu-de-gel-39310.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/extraction-2-izle-3-52777.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/fullhd-oppenheimer-izle.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/luther-batan-gunes-89290.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/mission-impossible-7-izle-1-89708.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/transformers-7-canavarlarin-yukselisi-izle-1-14180.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-        <img src="/html/assets/img/movelistitem/cadilar-bayrami-sona-eriyor-halloween-ends-2-18418.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/esrarengiz-canavar-troll-44591.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-         <img src="/html/assets/img/movelistitem/hizli-ve-ofkeli-10-fast-x-fhd4-84704.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-        <img src="/html/assets/img/movelistitem/fullhd-moonfall-izle.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-      <img src="/html/assets/img/movelistitem/teen-wolf-filmi-66010.webp" alt="">
-        </div>
-        <div class="swiper-slide">
-        <img src="/html/assets/img/movelistitem/uc-bin-yillik-bekleyis-42598.webp" alt="">
-        </div>
-       
       </div>
-    </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

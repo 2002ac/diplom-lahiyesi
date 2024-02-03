@@ -1,112 +1,167 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+}
+
+:root {
+  --main-color: #ffb43a;
+  --hover-color: hsl(37, 94%, 57%);
+  --body-color: #1e1e2a;
+  --container-color: #2d2e37;
+  --text-color: #fcfeff;
+}
 body {
-  height: 300vh;
-
-  .navbar {
-    background-color: black;
-    height: 60px;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    .navbar-wrapper {
-      height: 100%;
-      padding: 0 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .logo-wrapper {
-        .logo {
-          color: red;
-          font-size: 30px;
-        }
-      }
-      .menu-container {
-        .menu-list {
-          display: flex;
-          list-style: none;
-          column-gap: 30px;
-          padding: 0;
-          .active {
-            font-weight: bold;
-          }
-          .menu-list-item {
-            cursor: pointer;
-            &:hover {
-              color: white;
-              font-weight: 700;
-            }
-          }
-        }
-      }
-      .profile-container {
-        display: flex;
-        align-items: center;
-        column-gap: 20px;
-        .profil-pictures {
-          width: 32px;
-          height: 32px;
-          object-fit: cover;
-          border-radius: 50%;
-        }
-        .profile-text-container {
-          display: flex;
-          align-items: center;
-          column-gap: 5px;
-          line-height: 1px;
-          // .profile-text {}
-        }
-        .toggle {
-          width: 40px;
-          height: 20px;
-          border-radius: 30px;
-          position: relative;
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          background-color: white;
-          .toggle-icon {
-            color: goldenrod;
-          }
-          .toggle-top {
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            position: absolute;
-            right: 1px;
-            background-color: black;
-          }
-        }
-      }
-    }
-  }
-  // nav bar son
-
-  // sidebar start
-  .sidebar {
-    background-color: black;
-    color: white;
-    height: 100%;
-    width: 50px;
+  header {
     position: fixed;
     top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    row-gap: 40px;
-    i {
-      color: white;
-      font-size: 20px;
-      cursor: pointer;
+    left: 0;
+    width: 100%;
+    background: var(--body-color);
+    z-index: 100;
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+      .logo {
+        font-size: 1.4rem;
+        color: var(--text-color);
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 auto 0 0;
+        span {
+          color: var(--main-color);
+        }
+      }
+      .search-box {
+        max-width: 240px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 0.7rem;
+        padding: 8px 15px;
+        background: var(--container-color);
+        border-radius: 4rem;
+        margin-right: 1rem;
+        .bx {
+          font-size: 1.1rem;
+          :hover {
+            color: var(--main-color);
+          }
+        }
+        #search-input {
+          width: 100%;
+          border: none;
+          outline: none;
+          color: var(--text-color);
+          background: transparent;
+          font-size: 0.938rem;
+        }
+      }
+      .user {
+        display: flex;
+        .user-img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .navbar {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.1rem;
+        .nav-link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: #b7b7b7;
+          :hover,
+          .nav-active {
+            color: var(--text-color);
+            transition: 0.3s all linear;
+            transform: scale(1.1);
+          }
+          .bx {
+            font-size: 1.6rem;
+          }
+          .nav-link-title {
+            font-size: 0.7rem;
+          }
+        }
+      }
     }
   }
-  // sidebar son
 
-  .container {
-    margin-left: 50px;
+  .home {
+    position: relative;
+    min-height: 470px;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem !important;
+    border-radius: 0.5rem;
+    .home-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+    .home-text {
+      padding-left: 40px;
+      .home-title {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      p {
+        font-size: 0.938rem;
+        margin: 10px 0 20px;
+        color: var(--main-color);
+      }
+      .watch-btn {
+        display: flex;
+        align-items: center;
+        column-gap: 0.8rem;
+        color: var(--text-color);
+        .bx {
+          font-size: 21px;
+          background: var(--main-color);
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          :hover {
+            background: var(--hover-color);
+          }
+        }
+        span {
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .contayner {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
     margin-top: 60px;
     height: 100vh;
-    background-color: #01000c;
+    background-color: var(--body-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,9 +170,9 @@ body {
       color: white;
       font-size: 55px;
       margin-top: 30px;
-  }
-  .swiper {
-      width: 90%;
+    }
+    .swiper {
+      width: 100%;
       padding-top: 50px;
       height: 100%;
       .swiper-slide {
@@ -128,7 +183,8 @@ body {
         img {
           display: block;
           width: 100%;
-          -webkit-box-reflect: below 1px linear-gradient(transparent , transparent , #0002 , #0004);
+          -webkit-box-reflect: below 1px
+            linear-gradient(transparent, transparent, #0002, #0004);
         }
       }
     }
