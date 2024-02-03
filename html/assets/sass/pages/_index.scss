@@ -167,6 +167,10 @@ body {
     justify-content: center;
     align-items: center;
     h1 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background: var(--container-color);
       color: white;
       font-size: 55px;
       margin-top: 30px;
@@ -185,6 +189,50 @@ body {
           width: 100%;
           -webkit-box-reflect: below 1px
             linear-gradient(transparent, transparent, #0002, #0004);
+        }
+        .box-movie-text {
+          position: absolute;
+          bottom: 130px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          justify-content: flex-end;
+          padding: 14px;
+          background: linear-gradient(
+            8deg,
+            hsl(240 17% 14% / 74%) 14%,
+            hsl(240 17% 14% / 14%) 44%
+          );
+          overflow: hidden;
+          .Box-movie-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+          .s-movie-type {
+            font-size: 0.938rem;
+          }
+          .watch-btn {
+            display: flex;
+            align-items: center;
+            column-gap: 0.8rem;
+            color: var(--text-color);
+            .bx {
+              font-size: 21px;
+              background: var(--main-color);
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              :hover {
+                background: var(--hover-color);
+              }
+            }
+          }
         }
       }
     }
