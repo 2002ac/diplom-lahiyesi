@@ -1,3 +1,13 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+}
+
 a {
     text-decoration: none;
   }
@@ -27,4 +37,12 @@ a {
     max-width: 1068px;
     margin: auto;
     width: 100%;
+  }
+
+  :root {
+    --main-color: #ffb43a;
+    --hover-color: hsl(37, 94%, 57%);
+    --body-color: #1e1e2a;
+    --container-color: #2d2e37;
+    --text-color: #fcfeff;
   }
