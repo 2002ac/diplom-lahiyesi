@@ -335,4 +335,23 @@ body {
     text-align: center;
     padding: 20px;
   }
+  @media (max-width:1210px){
+    header {
+      .nav {
+        .navbar {
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: auto;
+          transform: translateY(0);
+          flex-direction: row;
+          justify-content: space-evenly;
+          row-gap: 1px;
+          padding: 10px;
+          border-top: 1px solid hsl(200, 100%, 99% / 5%);
+          background: linear-gradient(8deg , hsl(240 17% 14% / 100%) 5%, hsl(240 17% 14% / 90%) 100%);
+        }
+      }
+    }
+  }
 }
