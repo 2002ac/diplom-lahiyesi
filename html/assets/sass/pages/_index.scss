@@ -15,17 +15,17 @@
   --container-color: #2d2e37;
   --text-color: #fcfeff;
 }
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
   width: 0.5rem;
   background: transparent;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
   background: var(--main-color);
 }
 ::selection {
-   background: var(--main-color);
-   color: var(--text-color);
+  background: var(--main-color);
+  color: var(--text-color);
 }
 body {
   header {
@@ -263,19 +263,19 @@ body {
     .movies-content {
       margin-top: 30px;
       display: grid;
-      grid-template-columns: repeat(auto-fit , minmax(247px , 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
       gap: 1.5rem;
       .movie-box {
         position: relative;
-        .movies-box-img{
+        .movies-box-img {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          & :hover{
+          & :hover {
             transform: scale(1.1);
             transition: 0.5s;
-         }
-        } 
+          }
+        }
         .box-movie-text {
           position: absolute;
           bottom: 0;
@@ -292,7 +292,7 @@ body {
             hsl(240 17% 14% / 74%) 14%,
             hsl(240 17% 14% / 14%) 44%
           );
-          
+
           .Box-movie-title {
             font-size: 1.1rem;
             font-weight: 500;
@@ -340,14 +340,14 @@ body {
     }
     .next-btn :hover {
       background: var(--hover-color);
-        transition: .3s all linear;
+      transition: 0.3s all linear;
     }
   }
   .copyright {
     text-align: center;
     padding: 20px;
   }
-  @media (max-width:1210px){
+  @media (max-width: 1210px) {
     header {
       .nav {
         .navbar {
@@ -361,7 +361,62 @@ body {
           row-gap: 1px;
           padding: 10px;
           border-top: 1px solid hsl(200, 100%, 99% / 5%);
-          background: linear-gradient(8deg , hsl(240 17% 14% / 100%) 5%, hsl(240 17% 14% / 90%) 100%);
+          background: linear-gradient(
+            8deg,
+            hsl(240 17% 14% / 100%) 5%,
+            hsl(240 17% 14% / 90%) 100%
+          );
+          .nav-link {
+            .bx {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      margin-bottom: 4rem;
+    }
+  }
+  @media (max-width: 1100px) {
+    .container {
+      margin: 0 auto;
+      width: 95%;
+    }
+    .contayner {
+      margin: 0 auto;
+      width: 95%;
+    }
+  }
+  @media (max-width: 1100px) {
+    .movies-content {
+      grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+      .movie-box {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  @media (max-width: 880px) {
+    header {
+      .nav {
+        padding: 20px;
+      }
+      .home {
+        min-height: 470px;
+        margin-top: 5rem !important;
+        .home-text {
+          padding-left: 25px;
+          .home-title {
+             font-size: 1.6rem;
+             .watch-btn {
+              span {
+                font-size: 0.9rem;
+              }
+             }
+          }
         }
       }
     }
