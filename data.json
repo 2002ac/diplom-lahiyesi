@@ -1,0 +1,225 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "image": "barbie-25-98738.webp",
+      "title": "Barbie",
+      "genre": "Komedi",
+      "view": "4k",
+      "desc": "barbie_slay_movie_poster_x1x.jpg_1909824714",
+      "trailer":"Barbie_Teaser Trailer 2.mp4",
+      "actors": [
+        { "id": 1, "image": "americaFerrea.webp", "name": "America Terrea" },
+        { "id": 1, "image": "margotRobbie.webp", "name": "Margot Robie" },
+        { "id": 1, "image": "IsaRea.webp", "name": "Isa RAY" }
+      ]
+    },
+    {
+        "id": 2,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 2, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 2, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 2, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 2, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },{
+        "id": 3,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 3, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 3, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 3, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },{
+        "id": 4,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 4, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 4, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 4, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },{
+        "id": 5,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 5, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 5, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 5, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },{
+        "id": 6,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 6, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 6, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 6, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 7,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 7, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 7, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 7, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 8,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 8, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 8, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 8, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 9,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 9, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 9, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 9, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 10,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 10, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 10, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 10, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 11,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 11, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 11, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 11, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 12,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 12, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 12, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 12, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 13,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 13, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 13, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 13, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      } ,
+      {
+        "id": 14,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 14, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 14, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 14, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      },
+      {
+        "id": 15,
+        "image": "blue-beetle-2804.webp",
+        "title": "Blue-Beetle",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "bluye-betle.jepg",
+        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "actors": [
+            { "id": 15, "image": "americaFerrea.webp", "name": "America Terrea" },
+            { "id": 15, "image": "margotRobbie.webp", "name": "Margot Robie" },
+            { "id": 15, "image": "IsaRea.webp", "name": "Isa RAY" }
+        ]
+      }
+      
+  ]
+}
