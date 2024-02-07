@@ -2,222 +2,266 @@
   "movies": [
     {
       "id": 1,
-      "image": "barbie-25-98738.webp",
+      "image": "barbiecard.webp",
       "title": "Barbie",
       "genre": "Komedi",
       "view": "4k",
-      "desc": "barbie_slay_movie_poster_x1x.jpg_1909824714",
-      "trailer":"Barbie_Teaser Trailer 2.mp4",
+      "desc": "barbievideoimg.webp",
+      "trailer":"barbivideo.mp4",
       "actors": [
         { "id": 1, "image": "americaFerrea.webp", "name": "America Terrea" },
         { "id": 1, "image": "margotRobbie.webp", "name": "Margot Robie" },
-        { "id": 1, "image": "IsaRea.webp", "name": "Isa RAY" }
+        { "id": 1, "image": "IsaRea.webp", "name": "Isa RAY" },
+        { "id": 1, "image": "MichelCera.webp", "name": "Michel Cera" },
+        { "id": 1, "image": "ryanGosling.webp", "name": "Ryan Gosling" },
+        { "id": 1, "image": "SimuLiu.webp", "name": "Isa RAY" }
       ]
     },
     {
         "id": 2,
-        "image": "blue-beetle-2804.webp",
+        "image": "bluebetlecard.webp",
         "title": "Blue-Beetle",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "bluebetlevideo.jpeg",
+        "trailer":"bluebetlevideo.mp4",
         "actors": [
-            { "id": 2, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 2, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 2, "image": "XoloMariduena.webp", "name": "Xolo Mariduena" },
+            { "id": 2, "image": "BurunaMarquezine.webp", "name": "Buruna Marquezine" },
+            { "id": 2, "image": "HarveyGuillen.webp", "name": "Harvey Guillen" },
+            { "id": 2, "image": "BelissaEscobedo.webp", "name": "Belissa Escobedo" },
+            { "id": 2, "image": "ElpidiaCarrilo.webp", "name": "ElpidiaCarrilo" },
+            { "id": 2, "image": "GeorgeLopez.webp", "name": "George Lopez" }
         ]
       },
       {
-        "id": 2,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
-        "actors": [
-            { "id": 2, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 2, "image": "IsaRea.webp", "name": "Isa RAY" }
-        ]
-      },{
         "id": 3,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "C.B.S.E.cards.webp",
+        "title": "Cadilar-Bayrami-Sona-Eriyor",
+        "genre": "Herror",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "C.B.S.E.videoimg.jepg",
+        "trailer":"C.B.S.E.video.mp4",
         "actors": [
-            { "id": 3, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 3, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 3, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 3, "image": "JameLeeCurtis.jpg", "name": "Jame Lee Curtis" },
+            { "id": 3, "image": "AndiMathic.jpg", "name": "Andi Mathic" },
+            { "id": 3, "image": "JudyGreer.jpg", "name": "Judy Greer" },
+            { "id": 3, "image": "JamesJudeCourtney.jpg", "name": "James Jude Courtney" },
+            { "id": 3, "image": "KyleRichards.jpg", "name": "Kyle Richards" },
+            { "id": 3, "image": "will-patton.jpg", "name": "Will Patton" }
         ]
       },{
         "id": 4,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "E.C.cards.webp",
+        "title": "Esrarengiz-Canavar",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "E.C.videoimg.jpg",
+        "trailer":"E.C.video.mp4",
         "actors": [
-            { "id": 4, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 4, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 4, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 4, "image": "MadsSjogardPetter.jpg", "name": "Mads Sjogard Petter" },
+            { "id": 4, "image": "PalAndersNordvi.jpg", "name": "Pal Anders Nordvi" },
+            { "id": 4, "image": "IneMarieWilhem.jpg", "name": "Ine Marie Wilhem" },
+            { "id": 4, "image": "GardB.Eidsvold.jpg", "name": "Gard B. Eidsvold" },
+            { "id": 4, "image": "AnnekeVonDerLippe.jpg", "name": "Anneke Von Der Lippe" },
+            { "id": 4, "image": "KimS.Falck.jpg", "name": "Kim S. Falck" }
         ]
       },{
         "id": 5,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "E-2Cards.webp",
+        "title": "Extenction-2",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "E-2Videoimg.png",
+        "trailer":"extenctionVideo.mp4",
         "actors": [
-            { "id": 5, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 5, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 5, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 5, "image": "ChrisHemsworth.jpg", "name": "Chris Hemsworth" },
+            { "id": 5, "image": "DanielBernhardt.jpg", "name": "Daniel Bernhardt" },
+            { "id": 5, "image": "OlgaKurylenko.jpg", "name": "Olga Kurylenko" },
+            { "id": 5, "image": "SineadPhelps.jpg", "name": "Sinead Phelps" },
+            { "id": 5, "image": "TinatinDalakishcili.jpg", "name": "Tinatin Dalakishcili" },
+            { "id": 5, "image": "AdamBessa.jpg", "name": "Adam Bessa" }
         ]
-      },{
+      },
+      {
         "id": 6,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "H.V.O.10.Cards.webp",
+        "title": "Hizli VE Ofkeli X",
+        "genre": "Aksion",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "H.V.O.10.Videoimg.webp",
+        "trailer":"H.V.O.10.Video.mp4",
         "actors": [
-            { "id": 6, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 6, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 6, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 6, "image": "VinDiesel.jpg", "name": "Vin Diesel" },
+            { "id": 6, "image": "JasonMomoa.jpg", "name": "Jason Momoa" },
+            { "id": 6, "image": "JordanaBrewster.jpg", "name": "Jordana Brewster" },
+            { "id": 6, "image": "JohnCena.jpg", "name": "John Cena" },
+            { "id": 6, "image": "MichelleRodriguez.jpg", "name": "Michelle Rodriguez" },
+            { "id": 6, "image": "TyreseGibson.jpg", "name": "Tyrese Gibson" }
         ]
       },
       {
         "id": 7,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "L.B.G.cards.webp",
+        "title": "Luther Batan Gunes",
+        "genre": "Aksion",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "L.B.G.Videoimg.jpeg",
+        "trailer":"",
         "actors": [
-            { "id": 7, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 7, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 7, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 7, "image": "IdrisElba.jpg", "name": "Idris Elba" },
+            { "id": 7, "image": "HattieMorahan.webp", "name": "Hattie Morahan" },
+            { "id": 7, "image": "ThomasCoombes.jpg", "name": "Thomas Coombes" },
+            { "id": 7, "image": "DermotCrowley.jpg", "name": "Dermot Crowley" },
+            { "id": 7, "image": "CynthiaErivo.jpg", "name": "Cynthia Erivo" },
+            { "id": 7, "image": "AndySerkis.webp", "name": "Andy Serkis" }
         ]
-      },
-      {
+      },{
         "id": 8,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "M.I.7cards.webp",
+        "title": "Mission Imponsible-7",
+        "genre": "Aksion",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "M.I.7.Videoimg.png",
+        "trailer":"M.I.7.Video.mp4",
         "actors": [
-            { "id": 8, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 8, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 8, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 8, "image": "TomCrus.jpeg", "name": "Tom Crus" },
+            { "id": 8, "image": "RebeccaFerguson.jpeg", "name": "Rebecca Ferguson" },
+            { "id": 8, "image": "SimonPegg.jpeg", "name": "Simon Pegg" },
+            { "id": 8, "image": "VanessaKirby.jpeg", "name": "Vanessa Kirby" },
+            { "id": 8, "image": "EsaiMorales.jpeg", "name": "Esai Morales" },
+            { "id": 8, "image": "VingRhames.jpeg", "name": "Ving Rhames" }
         ]
-      },
-      {
+      },{
         "id": 9,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "moonfalCards.webp",
+        "title": "Moonfall",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "moonfalVideoimg.jpg",
+        "trailer":"MoonfalVideo.mp4",
         "actors": [
-            { "id": 9, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 9, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 9, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 9, "image": "PatrickWilson.webp", "name": "Patric kWilson" },
+            { "id": 9, "image": "HalleBerry.webp", "name": "Halle Berry" },
+            { "id": 9, "image": "JohnBradley.webp", "name": "John Bradley" },
+            { "id": 9, "image": "EmeIkwuakor.webp", "name": "Eme Ikwuakor" },
+            { "id": 9, "image": "MichaelPena.webp", "name": "Michael Pena" },
+            { "id": 9, "image": "CarolinaBartczak.webp", "name": "Carolina Bartczak" }
         ]
       },
       {
         "id": 10,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "N.K.Cards.webp",
+        "title": "Ninja Mutant Turtules",
+        "genre": "Anime",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "N.K.T.VideoImg.webp",
+        "trailer":"N.K.video.mp4",
         "actors": [
-            { "id": 10, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 10, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 10, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 10, "image": "Mikilancelo.png", "name": "Mikilancelo" },
+            { "id": 10, "image": "Rafael.jpeg", "name": "Rafael" },
+            { "id": 10, "image": "Sredir.webp", "name": "Sredir" },
+            { "id": 10, "image": "SenseySiplinter.png", "name": "Sensey Siplinter" },
+            { "id": 10, "image": "Daniello.png", "name": "Daniello" },
+            { "id": 10, "image": "Leonardo.jpeg", "name": "Leonardo" }
         ]
-      },
-      {
+      },{
         "id": 11,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "OppenheimerCards.webp",
+        "title": "Oppenheimer",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "OppenhaimerVideoimg.jpg",
+        "trailer":"Oppenheimer.Video.mp4",
         "actors": [
-            { "id": 11, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 11, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 11, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 11, "image": "CillianMurphy.webp", "name": "Cillian Murphy" },
+            { "id": 11, "image": "RobertDowneyJr.jpg", "name": "Robert Downey Jr" },
+            { "id": 11, "image": "MatthDamon.webp", "name": "Matth Damon" },
+            { "id": 11, "image": "EmilyBlunt.webp", "name": "Emily Blunt" },
+            { "id": 11, "image": "FlorencePugh.webp", "name": "Florence Pugh" },
+            { "id": 11, "image": "CaseyAffleck.webp", "name": "Casey Affleck" }
         ]
       },
       {
         "id": 12,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
+        "image": "Smile-2-Carts.webs",
+        "title": "Smile-2",
+        "genre": "Herror",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "Smile-2-videoimg.jpg",
+        "trailer":"Smile-2-video.mp4",
         "actors": [
-            { "id": 12, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 12, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 12, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 12, "image": "LukasGage.jpeg", "name": "Lukas Gage" },
+            { "id": 12, "image": "NaomiScott.jpeg", "name": "Naomi Scott" }
+      
         ]
       },
       {
         "id": 13,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "StealthCardss.webp",
+        "title": "Stelth",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "StealthVideoimg.jpeg",
+        "trailer":"StealthVideo.mp4",
         "actors": [
-            { "id": 13, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 13, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 13, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 13, "image": "JamieFoxx.jpeg", "name": "Jamie Foxx" },
+            { "id": 13, "image": "JessicaBiel.jpeg", "name": "Jessica Biel" },
+            { "id": 13, "image": "JoeMorton.jpeg", "name": "Joe Morton" },
+            { "id": 13, "image": "JoshLucas.jpeg", "name": "Josh Lucas" },
+            { "id": 13, "image": "RichardRoxburgh.jpeg", "name": "Richard Roxburgh" },
+            { "id": 13, "image": "SamShepard.jpeg", "name": "Sam Shepard" }
         ]
-      } ,
+      },
       {
         "id": 14,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "teenWolfCards.webp",
+        "title": "Teen Wolf",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "teen-wolfVideoimg.jpeg",
+        "trailer":"teenWolfVideo.mp4",
         "actors": [
-            { "id": 14, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 14, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 14, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 14, "image": "MiekoHillman.jpeg", "name": "Mieko Hillman" },
+            { "id": 14, "image": "MaxCarver.jpg", "name": "Max Carver" },
+            { "id": 14, "image": "JohnWesleyShipp.jpeg", "name": "John Wesley Shipp" },
+            { "id": 14, "image": "HillaryBrant.jpeg", "name": "Hillary Brant" },
+            { "id": 14, "image": "DesireeHall.jpeg", "name": "DesireeHall" },
+            { "id": 14, "image": "AdamRosenberg.jpeg", "name": "Adam Rosenberg" }
         ]
       },
       {
         "id": 15,
-        "image": "blue-beetle-2804.webp",
-        "title": "Blue-Beetle",
+        "image": "transform7Cards.webp",
+        "title": "Transform-7",
         "genre": "Fantastik",
         "view": "4k",
-        "desc": "bluye-betle.jepg",
-        "trailer":"Barbie_Teaser Trailer 2.mp4",
+        "desc": "transform7Cards.jpeg",
+        "trailer":"transform7Video.mp4",
         "actors": [
-            { "id": 15, "image": "americaFerrea.webp", "name": "America Terrea" },
-            { "id": 15, "image": "margotRobbie.webp", "name": "Margot Robie" },
-            { "id": 15, "image": "IsaRea.webp", "name": "Isa RAY" }
+            { "id": 15, "image": "NoahDiaz.jpg", "name": "Noah Diaz" },
+            { "id": 15, "image": "LunaLaurenVelez.jpg", "name": "Luna Lauren Velez" },
+            { "id": 15, "image": "SarahStiles.jpg", "name": "Sarah Stiles" },
+            { "id": 15, "image": "TobeNwigwe.jpeg", "name": "Tobe Nwigwe" },
+            { "id": 15, "image": "JobyHarold.jpeg", "name": "Joby Harold" },
+            { "id": 15, "image": "DeanScottVazquez.jpeg", "name": "Dean Scott Vazquez" }
+        ]
+      },
+      {
+        "id": 15,
+        "image": "U.B.Y.Bcards.webp",
+        "title": "Uc Bin Yillik Bekleyis",
+        "genre": "Fantastik",
+        "view": "4k",
+        "desc": "U.B.Y.B.Videoimg.jpg",
+        "trailer":"U.B.Y.B..Video.mp4",
+        "actors": [
+            { "id": 15, "image": "TildaSwinton.jpg", "name": "Tilda Swinton" },
+            { "id": 15, "image": "IdrisElba.jpeg", "name": "Idris Elba" },
+            { "id": 15, "image": "EceYüksel.jprg", "name": "Ece Yüksel" },
+            { "id": 15, "image": "LachyHulme.jpeg", "name": "Lachy Hulme" },
+            { "id": 15, "image": "MeganGale.jpeg", "name": "Megan Gale" },
+            { "id": 15, "image": "AamitoLagum.jpg", "name": "Aamito Lagum" }
         ]
       }
       
