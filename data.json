@@ -10,11 +10,11 @@
       "trailer":"barbivideo.mp4",
       "actors": [
         { "id": 1, "image": "americaFerrea.webp", "name": "America Terrea" },
-        { "id": 1, "image": "margotRobbie.webp", "name": "Margot Robie" },
-        { "id": 1, "image": "IsaRea.webp", "name": "Isa RAY" },
-        { "id": 1, "image": "MichelCera.webp", "name": "Michel Cera" },
-        { "id": 1, "image": "ryanGosling.webp", "name": "Ryan Gosling" },
-        { "id": 1, "image": "SimuLiu.webp", "name": "Isa RAY" }
+        { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
+        { "id": 3, "image": "IsaRea.webp", "name": "Isa RAY" },
+        { "id": 4, "image": "MichelCera.webp", "name": "Michel Cera" },
+        { "id": 5, "image": "ryanGosling.webp", "name": "Ryan Gosling" },
+        { "id": 6, "image": "SimuLiu.webp", "name": "Isa RAY" }
       ]
     },
     {
@@ -26,12 +26,12 @@
         "desc": "bluebetlevideo.jpeg",
         "trailer":"bluebetlevideo.mp4",
         "actors": [
-            { "id": 2, "image": "XoloMariduena.webp", "name": "Xolo Mariduena" },
+            { "id": 1, "image": "XoloMariduena.webp", "name": "Xolo Mariduena" },
             { "id": 2, "image": "BurunaMarquezine.webp", "name": "Buruna Marquezine" },
-            { "id": 2, "image": "HarveyGuillen.webp", "name": "Harvey Guillen" },
-            { "id": 2, "image": "BelissaEscobedo.webp", "name": "Belissa Escobedo" },
-            { "id": 2, "image": "ElpidiaCarrilo.webp", "name": "ElpidiaCarrilo" },
-            { "id": 2, "image": "GeorgeLopez.webp", "name": "George Lopez" }
+            { "id": 3, "image": "HarveyGuillen.webp", "name": "Harvey Guillen" },
+            { "id": 4, "image": "BelissaEscobedo.webp", "name": "Belissa Escobedo" },
+            { "id": 5, "image": "ElpidiaCarrilo.webp", "name": "ElpidiaCarrilo" },
+            { "id": 6, "image": "GeorgeLopez.webp", "name": "George Lopez" }
         ]
       },
       {
@@ -43,12 +43,12 @@
         "desc": "C.B.S.E.videoimg.jepg",
         "trailer":"C.B.S.E.video.mp4",
         "actors": [
-            { "id": 3, "image": "JameLeeCurtis.jpg", "name": "Jame Lee Curtis" },
-            { "id": 3, "image": "AndiMathic.jpg", "name": "Andi Mathic" },
+            { "id": 1, "image": "JameLeeCurtis.jpg", "name": "Jame Lee Curtis" },
+            { "id": 2, "image": "AndiMathic.jpg", "name": "Andi Mathic" },
             { "id": 3, "image": "JudyGreer.jpg", "name": "Judy Greer" },
-            { "id": 3, "image": "JamesJudeCourtney.jpg", "name": "James Jude Courtney" },
-            { "id": 3, "image": "KyleRichards.jpg", "name": "Kyle Richards" },
-            { "id": 3, "image": "will-patton.jpg", "name": "Will Patton" }
+            { "id": 4, "image": "JamesJudeCourtney.jpg", "name": "James Jude Courtney" },
+            { "id": 5, "image": "KyleRichards.jpg", "name": "Kyle Richards" },
+            { "id": 6, "image": "will-patton.jpg", "name": "Will Patton" }
         ]
       },{
         "id": 4,
@@ -59,12 +59,12 @@
         "desc": "E.C.videoimg.jpg",
         "trailer":"E.C.video.mp4",
         "actors": [
-            { "id": 4, "image": "MadsSjogardPetter.jpg", "name": "Mads Sjogard Petter" },
-            { "id": 4, "image": "PalAndersNordvi.jpg", "name": "Pal Anders Nordvi" },
-            { "id": 4, "image": "IneMarieWilhem.jpg", "name": "Ine Marie Wilhem" },
+            { "id": 1, "image": "MadsSjogardPetter.jpg", "name": "Mads Sjogard Petter" },
+            { "id": 2, "image": "PalAndersNordvi.jpg", "name": "Pal Anders Nordvi" },
+            { "id": 3, "image": "IneMarieWilhem.jpg", "name": "Ine Marie Wilhem" },
             { "id": 4, "image": "GardB.Eidsvold.jpg", "name": "Gard B. Eidsvold" },
-            { "id": 4, "image": "AnnekeVonDerLippe.jpg", "name": "Anneke Von Der Lippe" },
-            { "id": 4, "image": "KimS.Falck.jpg", "name": "Kim S. Falck" }
+            { "id": 5, "image": "AnnekeVonDerLippe.jpg", "name": "Anneke Von Der Lippe" },
+            { "id": 6, "image": "KimS.Falck.jpg", "name": "Kim S. Falck" }
         ]
       },{
         "id": 5,
@@ -75,12 +75,12 @@
         "desc": "E-2Videoimg.png",
         "trailer":"extenctionVideo.mp4",
         "actors": [
-            { "id": 5, "image": "ChrisHemsworth.jpg", "name": "Chris Hemsworth" },
-            { "id": 5, "image": "DanielBernhardt.jpg", "name": "Daniel Bernhardt" },
-            { "id": 5, "image": "OlgaKurylenko.jpg", "name": "Olga Kurylenko" },
-            { "id": 5, "image": "SineadPhelps.jpg", "name": "Sinead Phelps" },
+            { "id": 1, "image": "ChrisHemsworth.jpg", "name": "Chris Hemsworth" },
+            { "id": 2, "image": "DanielBernhardt.jpg", "name": "Daniel Bernhardt" },
+            { "id": 3, "image": "OlgaKurylenko.jpg", "name": "Olga Kurylenko" },
+            { "id": 4, "image": "SineadPhelps.jpg", "name": "Sinead Phelps" },
             { "id": 5, "image": "TinatinDalakishcili.jpg", "name": "Tinatin Dalakishcili" },
-            { "id": 5, "image": "AdamBessa.jpg", "name": "Adam Bessa" }
+            { "id": 6, "image": "AdamBessa.jpg", "name": "Adam Bessa" }
         ]
       },
       {
@@ -92,11 +92,11 @@
         "desc": "H.V.O.10.Videoimg.webp",
         "trailer":"H.V.O.10.Video.mp4",
         "actors": [
-            { "id": 6, "image": "VinDiesel.jpg", "name": "Vin Diesel" },
-            { "id": 6, "image": "JasonMomoa.jpg", "name": "Jason Momoa" },
-            { "id": 6, "image": "JordanaBrewster.jpg", "name": "Jordana Brewster" },
-            { "id": 6, "image": "JohnCena.jpg", "name": "John Cena" },
-            { "id": 6, "image": "MichelleRodriguez.jpg", "name": "Michelle Rodriguez" },
+            { "id": 1, "image": "VinDiesel.jpg", "name": "Vin Diesel" },
+            { "id": 2, "image": "JasonMomoa.jpg", "name": "Jason Momoa" },
+            { "id": 3, "image": "JordanaBrewster.jpg", "name": "Jordana Brewster" },
+            { "id": 4, "image": "JohnCena.jpg", "name": "John Cena" },
+            { "id": 5, "image": "MichelleRodriguez.jpg", "name": "Michelle Rodriguez" },
             { "id": 6, "image": "TyreseGibson.jpg", "name": "Tyrese Gibson" }
         ]
       },
@@ -109,12 +109,12 @@
         "desc": "L.B.G.Videoimg.jpeg",
         "trailer":"",
         "actors": [
-            { "id": 7, "image": "IdrisElba.jpg", "name": "Idris Elba" },
-            { "id": 7, "image": "HattieMorahan.webp", "name": "Hattie Morahan" },
-            { "id": 7, "image": "ThomasCoombes.jpg", "name": "Thomas Coombes" },
-            { "id": 7, "image": "DermotCrowley.jpg", "name": "Dermot Crowley" },
-            { "id": 7, "image": "CynthiaErivo.jpg", "name": "Cynthia Erivo" },
-            { "id": 7, "image": "AndySerkis.webp", "name": "Andy Serkis" }
+            { "id": 1, "image": "IdrisElba.jpg", "name": "Idris Elba" },
+            { "id": 2, "image": "HattieMorahan.webp", "name": "Hattie Morahan" },
+            { "id": 3, "image": "ThomasCoombes.jpg", "name": "Thomas Coombes" },
+            { "id": 4, "image": "DermotCrowley.jpg", "name": "Dermot Crowley" },
+            { "id": 5, "image": "CynthiaErivo.jpg", "name": "Cynthia Erivo" },
+            { "id": 6, "image": "AndySerkis.webp", "name": "Andy Serkis" }
         ]
       },{
         "id": 8,
@@ -125,12 +125,12 @@
         "desc": "M.I.7.Videoimg.png",
         "trailer":"M.I.7.Video.mp4",
         "actors": [
-            { "id": 8, "image": "TomCrus.jpeg", "name": "Tom Crus" },
-            { "id": 8, "image": "RebeccaFerguson.jpeg", "name": "Rebecca Ferguson" },
-            { "id": 8, "image": "SimonPegg.jpeg", "name": "Simon Pegg" },
-            { "id": 8, "image": "VanessaKirby.jpeg", "name": "Vanessa Kirby" },
-            { "id": 8, "image": "EsaiMorales.jpeg", "name": "Esai Morales" },
-            { "id": 8, "image": "VingRhames.jpeg", "name": "Ving Rhames" }
+            { "id": 1, "image": "TomCrus.jpeg", "name": "Tom Crus" },
+            { "id": 2, "image": "RebeccaFerguson.jpeg", "name": "Rebecca Ferguson" },
+            { "id": 3, "image": "SimonPegg.jpeg", "name": "Simon Pegg" },
+            { "id": 4, "image": "VanessaKirby.jpeg", "name": "Vanessa Kirby" },
+            { "id": 5, "image": "EsaiMorales.jpeg", "name": "Esai Morales" },
+            { "id": 6, "image": "VingRhames.jpeg", "name": "Ving Rhames" }
         ]
       },{
         "id": 9,
@@ -141,12 +141,12 @@
         "desc": "moonfalVideoimg.jpg",
         "trailer":"MoonfalVideo.mp4",
         "actors": [
-            { "id": 9, "image": "PatrickWilson.webp", "name": "Patric kWilson" },
-            { "id": 9, "image": "HalleBerry.webp", "name": "Halle Berry" },
-            { "id": 9, "image": "JohnBradley.webp", "name": "John Bradley" },
-            { "id": 9, "image": "EmeIkwuakor.webp", "name": "Eme Ikwuakor" },
-            { "id": 9, "image": "MichaelPena.webp", "name": "Michael Pena" },
-            { "id": 9, "image": "CarolinaBartczak.webp", "name": "Carolina Bartczak" }
+            { "id": 1, "image": "PatrickWilson.webp", "name": "Patric kWilson" },
+            { "id": 2, "image": "HalleBerry.webp", "name": "Halle Berry" },
+            { "id": 3, "image": "JohnBradley.webp", "name": "John Bradley" },
+            { "id": 4, "image": "EmeIkwuakor.webp", "name": "Eme Ikwuakor" },
+            { "id": 5, "image": "MichaelPena.webp", "name": "Michael Pena" },
+            { "id": 6, "image": "CarolinaBartczak.webp", "name": "Carolina Bartczak" }
         ]
       },
       {
@@ -158,12 +158,12 @@
         "desc": "N.K.T.VideoImg.webp",
         "trailer":"N.K.video.mp4",
         "actors": [
-            { "id": 10, "image": "Mikilancelo.png", "name": "Mikilancelo" },
-            { "id": 10, "image": "Rafael.jpeg", "name": "Rafael" },
-            { "id": 10, "image": "Sredir.webp", "name": "Sredir" },
-            { "id": 10, "image": "SenseySiplinter.png", "name": "Sensey Siplinter" },
-            { "id": 10, "image": "Daniello.png", "name": "Daniello" },
-            { "id": 10, "image": "Leonardo.jpeg", "name": "Leonardo" }
+            { "id": 1, "image": "Mikilancelo.png", "name": "Mikilancelo" },
+            { "id": 2, "image": "Rafael.jpeg", "name": "Rafael" },
+            { "id": 3, "image": "Sredir.webp", "name": "Sredir" },
+            { "id": 4, "image": "SenseySiplinter.png", "name": "Sensey Siplinter" },
+            { "id": 5, "image": "Daniello.png", "name": "Daniello" },
+            { "id": 6, "image": "Leonardo.jpeg", "name": "Leonardo" }
         ]
       },{
         "id": 11,
@@ -174,12 +174,12 @@
         "desc": "OppenhaimerVideoimg.jpg",
         "trailer":"Oppenheimer.Video.mp4",
         "actors": [
-            { "id": 11, "image": "CillianMurphy.webp", "name": "Cillian Murphy" },
-            { "id": 11, "image": "RobertDowneyJr.jpg", "name": "Robert Downey Jr" },
-            { "id": 11, "image": "MatthDamon.webp", "name": "Matth Damon" },
-            { "id": 11, "image": "EmilyBlunt.webp", "name": "Emily Blunt" },
-            { "id": 11, "image": "FlorencePugh.webp", "name": "Florence Pugh" },
-            { "id": 11, "image": "CaseyAffleck.webp", "name": "Casey Affleck" }
+            { "id": 1, "image": "CillianMurphy.webp", "name": "Cillian Murphy" },
+            { "id": 2, "image": "RobertDowneyJr.jpg", "name": "Robert Downey Jr" },
+            { "id": 3, "image": "MatthDamon.webp", "name": "Matth Damon" },
+            { "id": 4, "image": "EmilyBlunt.webp", "name": "Emily Blunt" },
+            { "id": 5, "image": "FlorencePugh.webp", "name": "Florence Pugh" },
+            { "id": 6, "image": "CaseyAffleck.webp", "name": "Casey Affleck" }
         ]
       },
       {
@@ -191,8 +191,8 @@
         "desc": "Smile-2-videoimg.jpg",
         "trailer":"Smile-2-video.mp4",
         "actors": [
-            { "id": 12, "image": "LukasGage.jpeg", "name": "Lukas Gage" },
-            { "id": 12, "image": "NaomiScott.jpeg", "name": "Naomi Scott" }
+            { "id": 1, "image": "LukasGage.jpeg", "name": "Lukas Gage" },
+            { "id": 2, "image": "NaomiScott.jpeg", "name": "Naomi Scott" }
       
         ]
       },
@@ -205,12 +205,12 @@
         "desc": "StealthVideoimg.jpeg",
         "trailer":"StealthVideo.mp4",
         "actors": [
-            { "id": 13, "image": "JamieFoxx.jpeg", "name": "Jamie Foxx" },
-            { "id": 13, "image": "JessicaBiel.jpeg", "name": "Jessica Biel" },
-            { "id": 13, "image": "JoeMorton.jpeg", "name": "Joe Morton" },
-            { "id": 13, "image": "JoshLucas.jpeg", "name": "Josh Lucas" },
-            { "id": 13, "image": "RichardRoxburgh.jpeg", "name": "Richard Roxburgh" },
-            { "id": 13, "image": "SamShepard.jpeg", "name": "Sam Shepard" }
+            { "id": 1, "image": "JamieFoxx.jpeg", "name": "Jamie Foxx" },
+            { "id": 2, "image": "JessicaBiel.jpeg", "name": "Jessica Biel" },
+            { "id": 3, "image": "JoeMorton.jpeg", "name": "Joe Morton" },
+            { "id": 4, "image": "JoshLucas.jpeg", "name": "Josh Lucas" },
+            { "id": 5, "image": "RichardRoxburgh.jpeg", "name": "Richard Roxburgh" },
+            { "id": 6, "image": "SamShepard.jpeg", "name": "Sam Shepard" }
         ]
       },
       {
@@ -222,12 +222,12 @@
         "desc": "teen-wolfVideoimg.jpeg",
         "trailer":"teenWolfVideo.mp4",
         "actors": [
-            { "id": 14, "image": "MiekoHillman.jpeg", "name": "Mieko Hillman" },
-            { "id": 14, "image": "MaxCarver.jpg", "name": "Max Carver" },
-            { "id": 14, "image": "JohnWesleyShipp.jpeg", "name": "John Wesley Shipp" },
-            { "id": 14, "image": "HillaryBrant.jpeg", "name": "Hillary Brant" },
-            { "id": 14, "image": "DesireeHall.jpeg", "name": "DesireeHall" },
-            { "id": 14, "image": "AdamRosenberg.jpeg", "name": "Adam Rosenberg" }
+            { "id": 1, "image": "MiekoHillman.jpeg", "name": "Mieko Hillman" },
+            { "id": 2, "image": "MaxCarver.jpg", "name": "Max Carver" },
+            { "id": 3, "image": "JohnWesleyShipp.jpeg", "name": "John Wesley Shipp" },
+            { "id": 4, "image": "HillaryBrant.jpeg", "name": "Hillary Brant" },
+            { "id": 5, "image": "DesireeHall.jpeg", "name": "DesireeHall" },
+            { "id": 6, "image": "AdamRosenberg.jpeg", "name": "Adam Rosenberg" }
         ]
       },
       {
@@ -239,12 +239,12 @@
         "desc": "transform7Cards.jpeg",
         "trailer":"transform7Video.mp4",
         "actors": [
-            { "id": 15, "image": "NoahDiaz.jpg", "name": "Noah Diaz" },
-            { "id": 15, "image": "LunaLaurenVelez.jpg", "name": "Luna Lauren Velez" },
-            { "id": 15, "image": "SarahStiles.jpg", "name": "Sarah Stiles" },
-            { "id": 15, "image": "TobeNwigwe.jpeg", "name": "Tobe Nwigwe" },
-            { "id": 15, "image": "JobyHarold.jpeg", "name": "Joby Harold" },
-            { "id": 15, "image": "DeanScottVazquez.jpeg", "name": "Dean Scott Vazquez" }
+            { "id": 1, "image": "NoahDiaz.jpg", "name": "Noah Diaz" },
+            { "id": 2, "image": "LunaLaurenVelez.jpg", "name": "Luna Lauren Velez" },
+            { "id": 3, "image": "SarahStiles.jpg", "name": "Sarah Stiles" },
+            { "id": 4, "image": "TobeNwigwe.jpeg", "name": "Tobe Nwigwe" },
+            { "id": 5, "image": "JobyHarold.jpeg", "name": "Joby Harold" },
+            { "id": 6, "image": "DeanScottVazquez.jpeg", "name": "Dean Scott Vazquez" }
         ]
       },
       {
@@ -256,14 +256,13 @@
         "desc": "U.B.Y.B.Videoimg.jpg",
         "trailer":"U.B.Y.B..Video.mp4",
         "actors": [
-            { "id": 15, "image": "TildaSwinton.jpg", "name": "Tilda Swinton" },
-            { "id": 15, "image": "IdrisElba.jpeg", "name": "Idris Elba" },
-            { "id": 15, "image": "EceYüksel.jprg", "name": "Ece Yüksel" },
-            { "id": 15, "image": "LachyHulme.jpeg", "name": "Lachy Hulme" },
-            { "id": 15, "image": "MeganGale.jpeg", "name": "Megan Gale" },
-            { "id": 15, "image": "AamitoLagum.jpg", "name": "Aamito Lagum" }
+            { "id": 1, "image": "TildaSwinton.jpg", "name": "Tilda Swinton" },
+            { "id": 2, "image": "IdrisElba.jpeg", "name": "Idris Elba" },
+            { "id": 3, "image": "EceYüksel.jprg", "name": "Ece Yüksel" },
+            { "id": 4, "image": "LachyHulme.jpeg", "name": "Lachy Hulme" },
+            { "id": 5, "image": "MeganGale.jpeg", "name": "Megan Gale" },
+            { "id": 6, "image": "AamitoLagum.jpg", "name": "Aamito Lagum" }
         ]
-      }
-      
+      }   
   ]
 }

@@ -53,3 +53,29 @@ const getMovies = function(){
 }
 
 getMovies()
+
+
+const getCartss = function(){
+  movieContent.innerHTML =""
+  fetch("http://localhost:3000/movies")
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(item => {
+      movieContent.innerHTML += `
+      <div class="swiper-slide">
+            <img
+              src="${item.image}"
+              alt=""
+            />
+            <div class="box-movie-text">
+              <h2 class="Box-movie-title">${item.title}</h2>
+              <span class="s-movie-type">${item.genre}</span>
+              <a href="../html/details-play.html?id=${item.id}" class="watch-btn play-btn">
+                <i class="bx bx-right-arrow"></i>
+              </a>
+            </div>
+          </div>
+      `
+    })
+  })
+}
