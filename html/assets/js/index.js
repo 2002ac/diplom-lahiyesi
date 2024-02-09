@@ -22,21 +22,21 @@ var swiper = new Swiper(".mySwiper", {
     modifier: 1,
     slideShadows: true,
   },
-loop: true,
 });
 
 const movieContent = document.querySelector(".movies-content")
+const swipers = document.querySelector(".swiper-wrapper")
 
-const getMovies = function(){
-  movieContent.innerHTML =""
+const getMovies = function () {
+  movieContent.innerHTML = ""
   fetch("http://localhost:3000/movies")
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(item => {
-      movieContent.innerHTML += `
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(item => {
+        movieContent.innerHTML += `
       <div class="movie-box">
       <img
-        src="../html/assets/img/movelistitem/${item.image}"
+        src="../html/assets/img/filimler/${item.title}/${item.image}"
         alt=""
       />
       <div class="box-movie-text">
@@ -48,23 +48,23 @@ const getMovies = function(){
       </div>
     </div>
       `
+      })
     })
-  })
 }
 
 getMovies()
 
 
-const getCartss = function(){
-  movieContent.innerHTML =""
+const getCartss = function () {
+  movieContent.innerHTML = ""
   fetch("http://localhost:3000/movies")
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(item => {
-      movieContent.innerHTML += `
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(item => {
+        swipers.innerHTML += `
       <div class="swiper-slide">
             <img
-              src="${item.image}"
+              src="../html/assets/img/filimler/${item.title}/${item.image}"
               alt=""
             />
             <div class="box-movie-text">
@@ -76,6 +76,8 @@ const getCartss = function(){
             </div>
           </div>
       `
+      })
     })
-  })
 }
+
+getCartss()
