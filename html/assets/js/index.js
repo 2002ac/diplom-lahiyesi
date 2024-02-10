@@ -27,6 +27,8 @@ var swiper = new Swiper(".mySwiper", {
 const movieContent = document.querySelector(".movies-content")
 const swipers = document.querySelector(".swiper-wrapper")
 
+
+
 const getMovies = function () {
   movieContent.innerHTML = ""
   fetch("http://localhost:3000/movies")
