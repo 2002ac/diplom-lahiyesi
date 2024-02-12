@@ -38,7 +38,7 @@ const getMovies = function () {
         movieContent.innerHTML += `
       <div class="movie-box">
       <img
-        src="../html/assets/img/filimler/${item.title}/${item.image}"
+        src="../html/assets/img/${item.image}"
         alt=""
       />
       <div class="box-movie-text">
@@ -66,7 +66,7 @@ const getCartss = function () {
         swipers.innerHTML += `
       <div class="swiper-slide">
             <img
-              src="../html/assets/img/filimler/${item.title}/${item.image}"
+              src="../html/assets/img/${item.image}"
               alt=""
             />
             <div class="box-movie-text">

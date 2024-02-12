@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.min.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    
+     <!-- header -->
+     <header>
+        <!-- nav -->
+        <div class="nav container">
+          <!-- logo -->
+          <a href="../html/index.html" class="logo">Filim<span>Izle</span> </a>
+          <!-- Search -->
+          <div class="search-box">
+            <input
+              type="search"
+              name=""
+              id="search-input"
+              placeholder="Search Movies..."
+            />
+            <i class="bx bx-search"></i>
+          </div>
+          <!-- User -->
+          <a href="../html/login.html" class="user">
+            <p>Login</p>
+          </a>
+          <!-- Nav bar-->
+          <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+              <i class="bx bx-home"></i>
+              <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#populyaritis" class="nav-link">
+              <i class="bx bxs-hot"></i>
+              <span class="nav-link-title">Trending</span>
+            </a>
+            <a href="#movies" class="nav-link">
+              <i class="bx bx-compass"></i>
+              <span class="nav-link-title">Explore</span>
+            </a>
+            <a href="../html/moviesss.html" class="nav-link">
+              <i class="bx bx-tv"></i>
+              <span class="nav-link-title">Movies</span>
+            </a>
+            <a href="#home" class="nav-link">
+              <i class="bx bx-heart"></i>
+              <span class="nav-link-title">Fovorite</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+    <section class="section-cards">
+      <div class="container row">
+        <div class="row mt-5">
+          <div class="col col-4"></div>
+          <div class="col col-4">
+            <h1 style="text-align: center">Form</h1>
+
+            <label for="">Title</label>
+            <input
+              type="text"
+              class="form-control title"
+              placeholder="Enter title..."
+            />
+            <br />
+
+            <label for="">Genre</label>
+            <input
+              type="text"
+              class="form-control genre"
+              placeholder="Enter genre..."
+            />
+            <br />
+
+            <!-- <label for="">Inform</label>
+            <input
+              type="text"
+              class="form-control inform"
+              placeholder="Enter Inform..."
+            />
+            <br /> -->
+           
+            <!-- <label for="">Movie Trailer</label>
+            <div class="imageCont">
+              <img src="" class="trailervideo" alt="" />
+            </div>
+            <input
+              type="file"
+              class="form-control trailer"
+              placeholder="Enter Trailer video..."
+            />
+            <br> -->
+
+            <label for="">Image Cards</label>
+            <div class="imageCont">
+              <img src="" class="movie-box" alt="" />
+            </div>
+            <input
+              type="file"
+              class="form-control Image"
+              placeholder="Enter Image..."
+            />
+            <br />
+
+            <!-- <label for="">Desc Images</label>
+            <div class="imageCont">
+              <img src="" class="descimg" alt="" />
+            </div>
+            <input
+              type="file"
+              class="form-control desc"
+              placeholder="Enter Desc Images..."
+            />
+            <br /> -->
+
+            <button class="btn btn-secondary addbtn">ADD</button>
+          </div>
+          <div class="col col-4"></div>
+        </div>
+        <div class="row mt-5">
+          <table>
+            <tr>
+              <th>ID:</th>
+              <th>Name:</th>
+              <th>Description:</th>
+              <th>Delete</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          Copyright ©2023 All rights reserved | This template is made with by
+          <i class="fa-regular fa-heart" style="color: white"></i>
+          Colorlib
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/add.js"></script>
+  </body>
+</html>

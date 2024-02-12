@@ -35,6 +35,7 @@ function showMovies(data) {
   document.querySelector(".movies").innerHTML = "";
 
   data.films.forEach((movie) => {
+    let genres = movie.genres.map(item=>item.genre).join(" ")
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
     movieEl.innerHTML = `
@@ -48,9 +49,7 @@ function showMovies(data) {
       </div>
       <div class="movie__info">
         <div class="movie__title">${movie.nameRu}</div>
-        <div class="movie__category">${movie.genres.map(
-          (genre) => ` ${genre.genreEn}`
-        )}</div>
+        <div class="movie__category">${genres}</div>
         ${
           movie.rating &&
           `
@@ -95,11 +94,14 @@ async function openModal(id) {
   modalEl.classList.add("modal--show");
   document.body.classList.add("stop-scrolling");
 
+
+  console.log(respData);
+
   modalEl.innerHTML = `
     <div class="modal__card">
       <img class="modal__movie-backdrop" src="${respData.posterUrl}" alt="">
       <h2>
-        <span class="modal__movie-title">${respData.nameEn}</span>
+        <span class="modal__movie-title">${respData.nameEn?respData.nameEn:respData.nameRu}</span>
         <span class="modal__movie-release-year"> - ${respData.year}</span>
       </h2>
       <ul class="modal__movie-info">
