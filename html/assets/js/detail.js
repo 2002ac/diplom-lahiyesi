@@ -120,3 +120,20 @@ fetch("http://localhost:3000/movies/" + id)
         `;
     });
   });
+
+  const download = document.querySelector(".download");
+
+  fetch("http://localhost:3000/movies/" + id)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    download.innerHTML += `
+      
+    <div class="download-link">
+      <a href="../html/assets/img/${data.trailer}" download>480px</a>
+      <a href="../html/assets/img/${data.trailer}" download>720px</a>
+      <a href="../html/assets/img/${data.trailer}" download>1080px</a>
+    </div>
+     
+`;
+  });

@@ -2,96 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barbie</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js" />
-  <!-- fav link -->
-  <link rel="shortcut icon" href="../html/assets/img/img1.jpeg" type="image/x-icon" />
-  <!-- boxicons link -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/main.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log_in</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
-  <!-- header -->
-  <header>
-    <!-- nav -->
-    <div class="nav container">
-      <!-- logo -->
-      <a href="../html/index.html" class="logo">Filim<span>Izle</span> </a>
-      <!-- Search -->
-      <div class="search-box">
-        <input type="search" name="" id="search-input" placeholder="Search Movies..." />
-        <i class="bx bx-search"></i>
-      </div>
-      <!-- User -->
-      <a href="#" class="user">
-        <img src="../html/assets/img/img1.jpeg" alt="" class="user-img" />
-      </a>
-      <!-- Nav bar-->
-      <div class="navbar">
-        <a href="/html/index.html" class="nav-link nav-active">
-          <i class="bx bx-home"></i>
-          <span class="nav-link-title">Home</span>
-        </a>
-        <a href="#home" class="nav-link">
-          <i class="bx bxs-hot"></i>
-          <span class="nav-link-title">Trending</span>
-        </a>
-        <a href="#home" class="nav-link">
-          <i class="bx bx-compass"></i>
-          <span class="nav-link-title">Explore</span>
-        </a>
-        <a href="#home" class="nav-link">
-          <i class="bx bx-tv"></i>
-          <span class="nav-link-title">Movies</span>
-        </a>
-        <a href="#home" class="nav-link">
-          <i class="bx bx-heart"></i>
-          <span class="nav-link-title">Fovorite</span>
-        </a>
-      </div>
-    </div>
-  </header>
+    <main>
+        <div class="container">
 
-  <div class="contayner">
-    <div class="screen">
-        <div class="screen__content">
-            <form class="login">
-                <div class="login__field">
-                    <i class="login__icon fas fa-user"></i>
-                    <input type="text" class="login__input" placeholder="User name / Email">
+            <section id="login_section">
+                <div class="form_box">
+                    <div class="button_box">
+                        <div id="btn"></div>
+                        <button id="login_btn" class="toggle_btn active">Log In</button>
+                        <button id="register_btn" class="toggle_btn">Register</button>
+                    </div>
+
+                    <form id="Login" action="" class="input_group">
+                        <input id="inp_log_user" type="text" placeholder="Enter Username" class="input_filed" required>
+                        <input id="inp_log_password" type="password" placeholder="Enter Password" class="input_filed" required>
+                        <a href="#">Last Your Password?</a>
+                        <button id="inp_login_btn" type="submit" class="submit_btn">Log In</button>
+                        <div class="isNot"></div>
+                    </form>
+
+                    <form id="Register" action="" class="input_group">
+                        <input id="inp_reg_user" type="text" placeholder="Enter Username" class="input_filed" required>
+                        <input id="inp_reg_password" type="password" placeholder="Enter Password" class="input_filed" required>
+                        <input id="inp_reg_email" type="email" placeholder="Enter Email" class="input_filed" required>
+                        <button id="inp_register_btn" type="submit" class="submit_btn">Register</button>
+                    </form>
                 </div>
-                <div class="login__field">
-                    <i class="login__icon fas fa-lock"></i>
-                    <input type="password" class="login__input" placeholder="Password">
-                </div>
-                <button class="button login__submit">
-                    <span class="button__text">Log In Now</span>
-                    <i class="button__icon fas fa-chevron-right"></i>
-                </button>				
-            </form>
-            <div class="social-login">
-                <h3>log in via</h3>
-                <div class="social-icons">
-                    <a href="#" class="social-login__icon fab fa-instagram"><i class='bx bxl-instagram' ></i></a>
-                    <a href="#" class="social-login__icon fab fa-facebook"><i class='bx bxl-facebook-circle'></i></a>
-                    <a href="#" class="social-login__icon fab fa-twitter"><i class='bx bxl-twitter' ></i></a>
-                </div>
-            </div>
+            </section>
+
         </div>
-        <div class="screen__background">
-            <span class="screen__background__shape sb-4"></span>
-            <span class="screen__background__shape sb-3"></span>		
-            <span class="screen__background__shape sb-2"></span>
-            <span class="screen__background__shape sb-1"></span>
-        </div>		
-    </div>
-</div>
+    </main>
+    <script src="./assets/js/register.js"></script>
+    <script src="./assets/js/login.js"></script>
     
-  </body>
+</body>
+
+</html>

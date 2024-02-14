@@ -19,36 +19,21 @@ imageInput.addEventListener('input', (e) => {
 })
 
 
-fetch("http://localhost:3000/movies")
+fetch(" http://localhost:3000/login")
 .then(res => res.json())
 .then(data => {
     data.forEach(element => {
         table.innerHTML += `
             <tr>
-                <td>${element.id}</td>
-                <td>${element.title}</td>
-                <td>${element.genre}</td>
+                <td>${element.user}</td>
+                <td>${element.password}</td>
+                <td>${element.email}</td>
                 <td>
                     <button onclick="deleteEl(${element.id})">Delete</button>
                 </td>
             </tr>
         `
     })
-})
-
-
-addBtn.addEventListener("click", function () {
-  if (titleInput.value !== "" && genreInput.value !== "" && imageInput.value !== "") {
-    axios.post(`http://localhost:3000/movies`, {
-      title: titleInput.value,
-      genre: genreInput.value,
-      image: movieBox.src,
-    })
-    .then(res=>window.location='../index.html')
-  }
-  else{
-    alert("Please select input value")
-  }
 })
 
 const deleteEl = (id) => {
