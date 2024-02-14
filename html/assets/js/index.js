@@ -35,10 +35,11 @@ const getMovies = function () {
     .then(response => response.json())
     .then(data => {
       data.forEach(item => {
+        let src = item.image.startsWith("data")?item.image:`../html/assets/img/${item.image}`
         movieContent.innerHTML += `
       <div class="movie-box">
       <img
-        src="../html/assets/img/${item.image}"
+        src="${src}"
         alt=""
       />
       <div class="box-movie-text">

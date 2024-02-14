@@ -1,14 +1,13 @@
-let video = document.querySelector(".video-container");
-let myVideo = document.querySelector("#myvideo");
 let id = new URLSearchParams(window.location.search).get("id");
 
 const body = document.querySelector(".play-container");
 
-fetch("http://localhost:3000/movies/" + id)
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-    body.innerHTML += `
+const getData = function () {
+  fetch("http://localhost:3000/movies/" + id)
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+      body.innerHTML += `
      <!-- play img -->
       <img
         src="../html/assets/img/${data.desc}"
@@ -51,53 +50,61 @@ fetch("http://localhost:3000/movies/" + id)
       </div>
 
 `;
+      let playButton = document.querySelector(".play-movie");
+      let closeBtn = document.querySelector(".close-video");
+      let video = document.querySelector(".video-container");
+      let myVideo = document.querySelector("#myvideo");
+      console.log(playButton);
+      playButton.onclick = () => {
+        console.log("hdjsds");
+        video.classList.add("show-video");
+        myVideo.play();
+      };
+      closeBtn.onclick = () => {
+        video.classList.remove("show-video");
+        myVideo.pause();
+      };
+    });
+};
+
+getData();
+
+const aboutInfo = document.querySelector(".about-movie");
+
+fetch("http://localhost:3000/movies/" + id)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    aboutInfo.innerHTML += `
+      <h2>${data.title}</h2>
+      <p>${data.inform}</p> 
+     
+`;
   });
 
-// const aboutInfo = document.querySelector(".about-movie container");
+// const about = document.querySelector(".about-movie container");
 
 // fetch("http://localhost:3000/movies/" + id)
-//   .then((res) => res.json())
-//   .then((data) => {
-//     console.log(data);
-//     aboutInfo.innerHTML += `
-     
-//       <h2>${data.title}</h2>
-//       <p>${data.inform}</p> 
-//       <h2 class="cast-heading">Movie Cast</h2>
-//       <div class="cast">
-//       <div class="cast-box">
-//       <img src="../html/assets/img/${item.image}" alt="" class="cast-img">
-//       <span class="cast-title">${item.name}</span>
-//       </div>
-//       </div>
+// .then((res) => res.json())
+// .then((data) => {
+//   data.inform.forEach((item) => {
+//     console.log('about')
+//     about.innerHTML += `
 
-// `;
-//   });
+//     <h2>${data.title}</h2>
+//     <p>${data.inform}</p>
+//     <h2 class="cast-heading">Movie Cast</h2>
 
+//     <div class="cast">
+//     <div class="cast-box">
+//             <img src="/html/assets/img/${item.image}" alt="" class="cast-img">
+//             <span class="cast-title">${item.name}</span>
+//           </div>
+//     </div>
 
-  // const about = document.querySelector(".about-movie container");
-
-  // fetch("http://localhost:3000/movies/" + id)
-  // .then((res) => res.json())
-  // .then((data) => {
-  //   data.inform.forEach((item) => {
-  //     console.log('about')
-  //     about.innerHTML += `
-
-  //     <h2>${data.title}</h2>
-  //     <p>${data.inform}</p> 
-  //     <h2 class="cast-heading">Movie Cast</h2>
-
-  //     <div class="cast">
-  //     <div class="cast-box">
-  //             <img src="/html/assets/img/${item.image}" alt="" class="cast-img">
-  //             <span class="cast-title">${item.name}</span>
-  //           </div>
-  //     </div>
-
-  //     `;
-  //   })
-  // });
+//     `;
+//   })
+// });
 
 const cast = document.querySelector(".cast");
 
@@ -113,15 +120,3 @@ fetch("http://localhost:3000/movies/" + id)
         `;
     });
   });
-
-let playButton = document.querySelector(".play-movie");
-let closeBtn = document.querySelector(".close-video");
-
-playButton.onclick= () => {
-  video.classList.add("show-video");
-  myVideo.play();
-};
-closeBtn.onclick = () => {
-  video.classList.remove("show-video");
-  myVideo.pouse();
-};

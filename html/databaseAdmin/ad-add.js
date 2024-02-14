@@ -5,13 +5,12 @@ let movieBox = document.querySelector(".movie-box");
 let table = document.querySelector("table");
 let addBtn = document.querySelector(".addbtn");
 
-
 const deleteEl = (id) => {
-  axios.delete('http://localhost:3000/users/'+id)
+  axios.delete('http://localhost:3000/movies/'+id)
   window.location.reload()
 }
 
-movieBox.addEventListener('input', (e) => {
+imageInput.addEventListener('input', (e) => {
   let file = e.target.files[0];
   if (file) {
     let reader = new FileReader();
@@ -23,10 +22,9 @@ movieBox.addEventListener('input', (e) => {
 })
 
 
-fetch("http://localhost:3000/users/")
+fetch("http://localhost:3000/movies")
 .then(res => res.json())
 .then(data => {
-    console.log(data);
     data.forEach(element => {
         table.innerHTML += `
             <tr>
@@ -44,10 +42,10 @@ fetch("http://localhost:3000/users/")
 
 addBtn.addEventListener("click", function () {
   if (titleInput.value !== "" && genreInput.value !== "" && imageInput.value !== "") {
-    axios.post(`http://localhost:3000/users`, {
+    axios.post(`http://localhost:3000/movies`, {
       title: titleInput.value,
       genre: genreInput.value,
-      Image: movieBox.src,
+      image: movieBox.src,
     })
     .then(res=>window.location='../index.html')
   }
