@@ -5,10 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>log_in</title>
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <!-- fav link -->
+  <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
+  <!-- boxicons link -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../css/main.min.css" />
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
+    <!-- header -->
+    <header>
+        <!-- nav -->
+        <div class="nav container">
+          <!-- logo -->
+          <a href="../html/index.html" class="logo">Filim<span>Izle</span> </a>
+          <!-- Search -->
+          <div class="search-box">
+            <input
+              type="search"
+              name=""
+              id="search-input"
+              placeholder="Search Movies..."
+            />
+            <i class="bx bx-search"></i>
+          </div>
+          <!-- User -->
+          
+          <!-- Nav bar-->
+          <div class="navbar">
+            <a href="#home" class="nav-link nav-active">
+              <i class="bx bx-home"></i>
+              <span class="nav-link-title">Home</span>
+            </a>
+            <a href="#populyaritis" class="nav-link">
+              <i class="bx bxs-hot"></i>
+              <span class="nav-link-title">Trending</span>
+            </a>
+            <a href="#movies" class="nav-link">
+              <i class="bx bx-compass"></i>
+              <span class="nav-link-title">Explore</span>
+            </a>
+            <a href="../html/moviesss.html" class="nav-link">
+              <i class="bx bx-tv"></i>
+              <span class="nav-link-title">Movies</span>
+            </a>
+            <a href="#home" class="nav-link">
+              <i class="bx bx-heart"></i>
+              <span class="nav-link-title">Fovorite</span>
+            </a>
+          </div>
+        </div>
+      </header>
     <main>
         <div class="container">
 
@@ -24,7 +95,7 @@
                         <input id="inp_log_user" type="text" placeholder="Enter Username" class="input_filed" required>
                         <input id="inp_log_password" type="password" placeholder="Enter Password" class="input_filed" required>
                         <a href="#">Last Your Password?</a>
-                        <button id="inp_login_btn" type="submit" class="submit_btn">Log In</button>
+                        <button style="margin-top: 40px;" id="inp_login_btn" type="submit" class="submit_btn">Log In</button>
                         <div class="isNot"></div>
                     </form>
 
@@ -39,6 +110,8 @@
 
         </div>
     </main>
+
+
     <script src="./assets/js/register.js"></script>
     <script src="./assets/js/login.js"></script>
     

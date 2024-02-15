@@ -22,6 +22,7 @@ var swiper = new Swiper(".mySwiper", {
     modifier: 1,
     slideShadows: true,
   },
+  loop: 1,
 });
 
 const movieContent = document.querySelector(".movies-content")
@@ -84,3 +85,10 @@ const getCartss = function () {
 }
 
 getCartss()
+
+// JS is to make the text editable, not required for the effect. Thanks for the suggestion @chriscoyier! 
+var h1 = document.querySelector("h1");
+
+h1.addEventListener("input", function() {
+    this.setAttribute("data-heading", this.innerText);
+});

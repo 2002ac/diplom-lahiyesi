@@ -1,7 +1,7 @@
 {
   "login": [
     {
-      "id": 1,
+      "id": "1",
       "user": "Mursel",
       "password": "1234",
       "email": "jdwjadhjkwdwh"
@@ -10,18 +10,24 @@
       "user": "Ayxan",
       "password": "1234",
       "email": "dddawdawd@cdcae",
-      "id": 3
+      "id": "3"
     },
     {
       "user": "Musi",
       "password": "1234",
       "email": "mursalrustamli313@gmail.com",
-      "id": 4
+      "id": "4"
+    },
+    {
+      "id": "649a",
+      "user": "Musi2",
+      "password": "1234",
+      "email": "ayxanceferov2002ac@gmail.com"
     }
   ],
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "image": "barbiecard.webp",
       "title": "Barbie",
       "genre": "Komedi",
@@ -30,277 +36,647 @@
       "trailer": "barbivideo.mp4",
       "inform": "Barbie, kendisini çevreleyen dünyanın geleneksel ve yüzeysel standartlarına uymayan bir kadındır. Toplumun belirlemiş olduğu ve çoğunlukla sığ olan mükemmel kadın imajına aykırı bir varlık olduğunu tespit eden Barbie, yaşadığı bu fantastik ancak aynı zamanda insana dair olan değerleri göz ardı eden dünyada dışlanır. Kendisini hiç kimseyle iletişime geçme ve ilişki kurma arzusu duymadığı bir yabancı olarak bulur. Yeni ve daha gerçek bir dünya, belki de bizim yaşamakta olduğumuz bu dünya, bulabileceği umuduyla bir yolculuğa çıkar. Bu yeni ve gerçeğe dayalı dünyada, kendi evinde, yani yaşadığı fantastik dünyada dışlanmasına sebep olan farklılıklar, onu diğerlerinden ayıran ve özel kılan avantajlara dönüşür. Bu farklılıklar nedeniyle toplumdan soyutlanmış olsa da, bu yeni dünyada kendini kabul ettirecek ve değerli hissettirecek bir yer bulmayı umuyor. Bu anlamda, Barbie'nin hikayesi bir adaptasyon ve kişisel gelişim hikayesi olarak da okunabilir.",
       "actors": [
-        { "id": 1, "image": "americaFerrea.webp", "name": "America Terrea" },
-        { "id": 2, "image": "margotRobbie.webp", "name": "Margot Robie" },
-        { "id": 3, "image": "IsaRea.webp", "name": "Isa RAY" },
-        { "id": 4, "image": "MichelCera.webp", "name": "Michel Cera" },
-        { "id": 5, "image": "ryanGosling.webp", "name": "Ryan Gosling" },
-        { "id": 6, "image": "SimuLiu.webp", "name": "Isa RAY" }
+        {
+          "id": 1,
+          "image": "americaFerrea.webp",
+          "name": "America Terrea"
+        },
+        {
+          "id": 2,
+          "image": "margotRobbie.webp",
+          "name": "Margot Robie"
+        },
+        {
+          "id": 3,
+          "image": "IsaRea.webp",
+          "name": "Isa RAY"
+        },
+        {
+          "id": 4,
+          "image": "MichelCera.webp",
+          "name": "Michel Cera"
+        },
+        {
+          "id": 5,
+          "image": "ryanGosling.webp",
+          "name": "Ryan Gosling"
+        },
+        {
+          "id": 6,
+          "image": "SimuLiu.webp",
+          "name": "Isa RAY"
+        }
       ]
     },
     {
-        "id": 2,
-        "image": "bluebetlecard.webp",
-        "title": "Blue-Beetle",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "bluebetlevideoimg.jpeg",
-        "trailer": "bluebetlevideo.mp4",
-        "inform": "Ergenlik çağına yeni adım atmış olan Jamie Reyes, okul çıkışında en iyi arkadaşları Paco ve Brenda ile birlikte evlerine dönerler. Yolda ilerlerken tuhaf bir şekilde karşılaşılan alışılmadık bir böcekle karşılaşırlar. Bu böcek, normalden farklı olarak garip bir araziye gömülü halde bulunur. Reyes, bu durum karşısında büyük bir merak duyar ve böceği daha yakından incelemek amacıyla eve götürmeye karar verir. Ancak gece olunca, beklenmedik bir olay gerçekleşir. İncelenmeye alınan böcek, canlanır ve Jamie Reyes'in omurgasına yapışır. Bu beklenmedik durum sonucunda Jamie, sahip olduğu dönüştürülebilir kostüm sayesinde inanılmaz bir hız ve güç kazanır. Bu kostüm, Jamie'nin sadece hızını ve gücünü arttırmakla kalmaz, aynı zamanda dövüş sırasında ihtiyacı olacak çeşitli silahları, kanatları ya da kalkanları üretebilme yeteneği de kazandırır. Kısacası, bu olağanüstü kostüm Jamie'ye neredeyse süper kahraman benzeri bir güç sağlar. ",
-        "actors": [
-            { "id": 1, "image": "XoloMariduena.webp", "name": "Xolo Mariduena" },
-            { "id": 2, "image": "BurunaMarquezine.webp", "name": "Buruna Marquezine" },
-            { "id": 3, "image": "HarveyGuillen.webp", "name": "Harvey Guillen" },
-            { "id": 4, "image": "BelissaEscobedo.webp", "name": "Belissa Escobedo" },
-            { "id": 5, "image": "ElpidiaCarrilo.webp", "name": "ElpidiaCarrilo" },
-            { "id": 6, "image": "GeorgeLopez.webp", "name": "George Lopez" }
-        ]
-      },
-      {
-        "id": 3,
-        "image": "C.B.S.E.cards.webp",
-        "title": "Cadilar-Bayrami-Sona-Eriyor",
-        "genre": "Herror",
-        "view": "4k",
-        "desc": "C.B.S.E.videoimg.jpeg",
-        "trailer": "C.B.S.E.video.mp4",
-        "inform": "Michael Myers ve Laurie Strode'un efsanevi savaşlarında heyecanı ve gerilimi en üst noktaya taşıyan ve serinin son bölümü olarak açıklanan 4k formatlı Halloween Ends isimli korku ve gerilim filminde serinin nasıl sonlandırılacağı henüz bir sır olma özelliğini korumaktadır. Ancak Halloween Kills filminde yani bir önceki bölümde Michael tüm eski kurban yakınları tarafından ve kendi ailesi tarafından tuzağa düşürülmüş ve korkunç şekilde cezalandırılmıştı. Defalarca bıçaklanan, kurşunlanan ve dövülen Michael herkesi kandırmayı başarmış ve ailesi öldüğünü sanıp eski evlerinin verandasında kendilerince sevinirken geride kalan herkesi acımasızca katletmiş ve sonrasında da eski evlerine dönüp yarım kalan bir aile işini de tamamlamıştır. Fakat serinin bu son bölümüne dair herhangi bir film konusu açıklaması yapılmamıştır.Serinin bu final bölümünde ise David Gordon Green filmin yönetmen koltuğundaki isimken, Green’e, Chris Bernier ve John Carpenter isimleri de senaryoda eşlik etmektedirler. Jamie Lee Curtis, Andi Matichak ve Nick Castle isimleri ise filmin başrol oyuncu kadrosundaki simalardır. Michael korkunç gücü sayesinde bir önceki bölümden sağ bir şekilde kurtulmasının sonrasında bu sefer de ölüme bir kez daha meydan okuyabilecek midir? Serinin bu final bölümünde Michael hangi yarım kalan işlerini tamamlayacaktır? Gerçekten de cadılar bayramı bu sefer sonsuza dek sona erecek midir?",
-        "actors": [
-            { "id": 1, "image": "JameLeeCurtis.jpg", "name": "Jame Lee Curtis" },
-            { "id": 2, "image": "AndiMathic.jpg", "name": "Andi Mathic" },
-            { "id": 3, "image": "JudyGreer.jpg", "name": "Judy Greer" },
-            { "id": 4, "image": "JamesJudeCourtney.jpg", "name": "James Jude Courtney" },
-            { "id": 5, "image": "KyleRichards.jpg", "name": "Kyle Richards" },
-            { "id": 6, "image": "will-patton.jpg", "name": "Will Patton" }
-        ]
-      },
-      {
-        "id": 4,
-        "image": "E.C.cards.webp",
-        "title": "Esrarengiz-Canavar",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "E.C.videoimg.jpg",
-        "trailer": "E.C.video.mp4",
-        "inform": "İlk gösterimini 1 Aralık 2022 tarihinde yapan bir film olan Troll hem başarılı görsel efektleri; hem de sürükleyici hikayesiyle birlikte siz değerli izleyicilerimize son derece keyifli bir 4k film deneyimi yaşatmayı başarıyor. Norveç efsanelerinden uyarlanarak beyazperdeye aktarılan bu yapımda, günün birinde Dovre Dağı’nda binlerce yıllık esirlikten kurtulmayı başaran devasa ve korkunç bir yaratık; binlerce yıllık bu uykunun ardından karşısına çıkan herkesi birer birer yok etmeye başlar. Kısa süre içerisinde Norveç’in başkentine ulaşacak olan ve burayı da silip süpürecek bu yaratığı durdurabilmek için yetkililer, son derece zorlu bir mücadeleye girişecektir. Norveç yapımı bir film olan Troll’un yönetmenlik koltuğunda Roar Uthaug otururken, filmin senaryosu ise Espen Aukan ile Roar Uthaug ikilisinin imzasını taşıyor. Aksiyon, macera ve dram türlerinde izleyicilerinin karşısına çıkan yapım; IMDB’den 7.2 gibi son derece başarılı bir puan alırken, filmin oyuncu kadrosunda ise Ine Marie Wilmann, Kim Falck, Mads Sjøgård Pettersen, Gard B. Eidsvold ve Anneke von der Lippe gibi isimler yer alıyor. Norveç efsanelerine göre son derece büyük, korkutucu ve devasa olan Troll adında bir varlık; bundan binlerce yıl önce etrafına tehlike arz etmesi nedeniyle Dovre Dağı’na hapsedilmiştir. Norveç halkı arasında bir efsane olarak dolaşan bu hikayeye çok az kişi inanırken, kısa süre sonra Norveç’teki insanlar hiç de istemeyecekleri bir şekilde bu hikayenin gerçekliğini öğrenecektir. Çünkü binlerce yıllık esaretin ardından Troll isimli bu yaratık tutsaklığından kurtulmayı başarmış ve önüne gelen herkesi birer birer yok etmeye başlamıştır. Dağdan kurtulmasının ardından Norveç’in başkenti, Oslo’ya ilerlemekte olan bu Troll’ün varlığından haberdar olan yetkililer ise devasa bir felaket yaşanmadan önce şehirdeki insanları kurtarmaya ve Troll’ü etkisiz hale getirmeye çalışacaktır.",
-        "actors": [
-            { "id": 1, "image": "MadsSjogardPetter.jpg", "name": "Mads Sjogard Petter" },
-            { "id": 2, "image": "PalAndersNordvi.jpg", "name": "Pal Anders Nordvi" },
-            { "id": 3, "image": "IneMarieWilhem.jpg", "name": "Ine Marie Wilhem" },
-            { "id": 4, "image": "GardB.Eidsvold.jpg", "name": "Gard B. Eidsvold" },
-            { "id": 5, "image": "AnnekeVonDerLippe.jpg", "name": "Anneke Von Der Lippe" },
-            { "id": 6, "image": "KimS.Falck.jpg", "name": "Kim S. Falck" }
-        ]
-      },
-      {
-        "id": 5,
-        "image": "E-2Cards.webp",
-        "title": "Extenction-2",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "E-2Videoimg.png",
-        "trailer":"extenctionVideo.mp4",
-        "inform": "Bangladeş'in, Dhaka kentindeki tehlikeli bir görevden mucizevi bir şekilde sağ kurtulan Tyler Rake, güvendiği ekibiyle birlikte bir sonraki görevlerine hazır olarak geri döndü. Bu kez, Georgia'lı kötü şöhretli bir gangster tarafından esir alınan bir aileyi kurtarmakla görevlendirilirler. Tyler onları kurtarmak için dünyanın en ölümcül hapishanelerinden birine sızmalıdır.  Hapishanenin içinde, Tyler ve ekibi sürekli tehditlerle karşı karşıya kalır.  Ancak kurtarma operasyonu sırasında işler beklenmedik bir hal alır. Şiddetli bir savaşın ortasında, intikam ateşiyle hareket eden gangsterin acımasız erkek kardeşi, Tyler ve ekibini Avustralya'yakadar takip eder. Gangsterin erkek kardeşi peşlerindeyken, Tyler ve ekibi kendilerini çok tehlikeli bir kedi fare oyununun içinde bulurlar. ",
-        "actors": [
-            { "id": 1, "image": "ChrisHemsworth.jpg", "name": "Chris Hemsworth" },
-            { "id": 2, "image": "DanielBernhardt.jpg", "name": "Daniel Bernhardt" },
-            { "id": 3, "image": "OlgaKurylenko.jpg", "name": "Olga Kurylenko" },
-            { "id": 4, "image": "SineadPhelps.jpg", "name": "Sinead Phelps" },
-            { "id": 5, "image": "TinatinDalakishcili.jpg", "name": "Tinatin Dalakishcili" },
-            { "id": 6, "image": "AdamBessa.jpg", "name": "Adam Bessa" }
-        ]
-      },
-      {
-        "id": 6,
-        "image": "H.V.O.10.Cards.webp",
-        "title": "Hizli VE Ofkeli X",
-        "genre": "Aksion",
-        "view": "4k",
-        "desc": "H.V.O.10.Videoimg.webp",
-        "trailer":"H.V.O.10.Video.mp4",
-        "inform": "Fast X filminin 19 Mayıs 2023 tarihinde seyirciyle buluşması planlanıyor. Aksiyon, macera ve suç kategorilerine giren yapım Hızlı ve Öfkeli 9’un devamı niteliğindedir. Filmin dili de İngilizcedir. Serinin 9. Filminde Dom büyük bir tehlikeyle karşı karşıyaydı ve bu tehlikenin ucu ailesine de dokunmaktadır. Dom’un tek amacı ise oğlu ve her şeyden çok sevdiği Brian’ı korumaktır. Sessiz sakin bir hayat sürme hayali olan Dom oğlu ve Letty ile birlikte gözlerden uzak bir yaşam sürmektedir. Tabii bu çok uzun sürmez. Eskilerden bir düşman Dom’u rahatsız etmeye başlar Dom’da bunun için ekibi tekrar bir araya getirir. Büyük bir mücadele veren ekip yapımın 10 filminde yani Fast X’de de yarıda kalan mücadelelerine devam ediyorlar. Peki bu sefer ekip davayı kapatabilecek mi? Bu yolculukta neleri feda etmeleri gerekecek? Aksiyon ve macera dolu hikâyenin 10. filminde neler olacak? Hızlı ve Öfkeli serisinin Fast & Furious 10 filminde diğer filmlerden de tanıdığımız yüzler bizlere eşlik ediyor. Bu isimler Hızlı ve Öfkeli filminin yıldızı Vin Diesel, Game of Thrones dizisinde performans sergileyen Nathalie Emmanuel, Lost dizisinde yer alan ve yine Hızlı ve Öfkeli serisinin yıldızlarından Michelle Rodriguez, Dallas dizisinde oynayan Jordana Brewster, Tyrese Gibson, John Cena, Sung Kang ve Ludacris gibi ünlü isimler ve daha fazlasıdır. Bu isimlere ek yapımda bize eşlik eden yeni isimler ise Captain Marvel ve Room filmlerinde yer alan Brie Larson, Aquaman ve Justice League filmlerinde yer alan Jason Momoa, Mad Max: Fury Road ve Pamuk Prenses ve Avcı filmlerinde yer alan Charlize Theron, 2023 yapımı The Suicide Squad filminde yer alan Daniela Melchior ve daha fazlasıdır. 4k filmin yönetmen koltuğunda oturan ismin diğer filmlerde de yönetmenlik yapmış olan Justin Lin olacağı söylentileri dolanmaktadır. Filmin senaryosunda yer alan isim ise önceki Hızlı ve Öfkeli filmlerinin senaryoları ile birlikte Knight Rider ve Taxi Brooklyn gibi filmlerin senaristliğini yapmış olan Gary Scott Thompson’dır. ",
-        "actors": [
-            { "id": 1, "image": "VinDiesel.jpg", "name": "Vin Diesel" },
-            { "id": 2, "image": "JasonMomoa.jpg", "name": "Jason Momoa" },
-            { "id": 3, "image": "JordanaBrewster.jpg", "name": "Jordana Brewster" },
-            { "id": 4, "image": "JohnCena.jpg", "name": "John Cena" },
-            { "id": 5, "image": "MichelleRodriguez.jpg", "name": "Michelle Rodriguez" },
-            { "id": 6, "image": "TyreseGibson.jpg", "name": "Tyrese Gibson" }
-        ]
-      },
-      {
-        "id": 7,
-        "image": "L.B.G.cards.webp",
-        "title": "Luther Batan Gunes",
-        "genre": "Aksion",
-        "view": "4k",
-        "desc": "L.B.G.Videoimg.jpeg",
-        "trailer":"L.B.G.video.mp4",
-        "inform": "Bu yüzyirmi dakikalık uzun serüven boyunca siz değerli izleyicilerimizi her geçen saniye daha da büyük bir gizemin içine sürükleyecek bir film olan Luther: The Fallen Sun, John Luther adında başarılı ancak geçmişi pek de parlak olmayan bir dedektifi merkezine alıyor. Günün birinde psikopat bir seri katilin Londra’yı birbirine kattığını öğrenen Luther, bu seri katili durdurabilmek adına hapishaneden çıkmaktan başka bir seçeneği olmadığını fark edecektir. İngiltere yapımı 4k bir film olan Luther: The Fallen Sun’un yönetmenlik koltuğunda Jamie Payne otururken, filmin senaryosu ise Neil Cross’un imzasını taşıyor. İlk gösterimini 10 Mart 2023 tarihinde yapan bu film, izleyicisinin karşısına suç; dram ve gizem türlerinde çıkarken, IMDB’den de tam 7.0 puan almayı başarıyor. Oyuncu kadrosunda Idris Elba, Andy Serkis, Cynthia Erivo, Dermot Crowley ve Andy Apollo gibi isimlerin yer aldığı filmin hikayesi ise şöyle gelişiyor … Geçmişte birbirinden önemli suçluları yakalamayı başarmış olan, son derece zeki ve bir o kadar da hırslı bir dedektif olan John Luther (Idris Elba); şimdilerde yaptığı utanç verici bir şey nedeniyle demir parmaklıklar ardında yaşamaktadır. Bir zamanlar herkesin en gözde dedektifi olan John Luther, aynı zamanda yaptığı bu şey nedeniyle gözden de düşmüş ve adeta hapishanenin içerisinde unutulup gitmiştir. Ancak günün birinde Londra’da sapkın ve bir o kadar acımasız bir seri katilin ortaya çıkması, Luther’in içindeki dedektif ruhunu yeniden ortaya çıkaracaktır. Bu acımasız seri katilin Londra’da terör estirdiğini öğrenen Luther, her şeyi bir kenara bırakarak kendisinden intikam almak için her yola başvuran bu adamın peşine düşmeye karar verir. Ancak hapishanede olması nedeniyle bu soruşturmaya yeteri kadar kendisini veremeyen Luther, hapishaneden kaçmaktan başka çaresi olmadığını fark eder ve bu acımasız seri katili yakalayabilmek için hapishaneden firar eder. Bu zorlu soruşturmayı çözebilmek için elinden gelen her şeyi yapmaya hazır olan Luther, bunu başarabilecek midir?",
-        "actors": [
-            { "id": 1, "image": "IdrisElba.jpg", "name": "Idris Elba" },
-            { "id": 2, "image": "HattieMorahan.webp", "name": "Hattie Morahan" },
-            { "id": 3, "image": "ThomasCoombes.jpg", "name": "Thomas Coombes" },
-            { "id": 4, "image": "DermotCrowley.jpg", "name": "Dermot Crowley" },
-            { "id": 5, "image": "CynthiaErivo.jpg", "name": "Cynthia Erivo" },
-            { "id": 6, "image": "AndySerkis.webp", "name": "Andy Serkis" }
-        ]
-      },{
-        "id": 8,
-        "image": "M.I.7cards.webp",
-        "title": "Mission Imponsible-7",
-        "genre": "Aksion",
-        "view": "4k",
-        "desc": "M.I.7.Videoimg.png",
-        "trailer":"M.I.7.Video.mp4",
-        "inform": "Görevimiz Tehlike serisinin 7. Filmi olan bu 4k formatlı filmde Tom Cruise’u yine efsaneleşmiş Ethan Hunt rolünde izliyoruz. Film yine Ethan’ın ve birlikte çalıştığı IMF ekibinin başına gelen birtakım olayları ele alıyor. Bir önceki filmde Berlin’de bir kurtarma görevi sırasında işler ters gitmişti ve dünya büyük bir tehlikeyle karşı karşıya kalmıştı. Bir şekilde CIA ile farklı düşünen Ethan, CIA’i dinlememişti ve karşılığında CIA onu kara listesine almıştı. Bu yüzden kendi yanındakiler bir anda ona karşı olmuşlardı. Peki bu sefer Ethan’ı nasıl bir aksiyon bekliyor? Aksiyon, macera ve gerilim türündeki Mission: Impossible 7 filminin oyuncu kadrosunda Tom Cruise’a ek olarak bir önceki filmlerde karşımıza çıkan Rebecca Ferguson, Fast & Furious Presents: Hobbs & Shaw filminde izlediğimiz Vanessa Kirby, yine diğer Görevimiz Tehlike filmlerinde izlediğimiz Simon Pegg ve Captain America: The First Avenger filminden Hayley Atwell gibi isimler yer almakta. 19 Kasım 2021 vizyon tarihli Amerikan filmini beyaz perdeye aktaran yönetmen Christopher McQuarrie, The Tourist ve Jack the Giant Slayer gibi filmlere ek olarak Tom Cruise’un yer aldığı birçok filmin de yönetmenliğini yapmıştır. Mission: Impossible 7, McQuarrie’nin yönettiği üçüncü Görevimiz Tehlike filmidir. Senaryoda ise Christopher McQuarrie’ye ek olarak Bruce Geller’ın da adı bulunuyor. Film henüz çıkmadan, sevenleri ve sevmeyenleri de dahil olarak birçok sinema seyircisi tarafından birtakım olaylar sebebiyle duyulmuştu. Çekimler pandemiye denk geldiği halde belli kurallar çerçevesinde yapıldı. Lakin çekimler sırasında Tom Cruise’un bir ses kaydı setteki birileri tarafından sızdırıldı. Tom Cruise sette pandemi önlemlerine uymayan birkaç çalışana bağırıyordu bu ses kaydında. Birçok sinema sever Tom Cruise’a hak verirken, çoğu kişide bağırmasının yanlış olduğunu söyledi. Olay kötüymüş gibi görünse de bu durum birçok kişinin filmi henüz çıkmadan duymasını sağladı. Görevimiz Tehlike tutkunlarının merakla beklediği filmin 8. ve devam filminin ise 2022’de vizyona girmesi bekleniyor. ",
-        "actors": [
-            { "id": 1, "image": "TomCrus.jpeg", "name": "Tom Crus" },
-            { "id": 2, "image": "RebeccaFerguson.jpeg", "name": "Rebecca Ferguson" },
-            { "id": 3, "image": "SimonPegg.jpeg", "name": "Simon Pegg" },
-            { "id": 4, "image": "VanessaKirby.jpeg", "name": "Vanessa Kirby" },
-            { "id": 5, "image": "EsaiMorales.jpeg", "name": "Esai Morales" },
-            { "id": 6, "image": "VingRhames.jpeg", "name": "Ving Rhames" }
-        ]
-      },{
-        "id": 9,
-        "image": "moonfalCards.webp",
-        "title": "Moonfall",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "moonfalVideoimg.jpg",
-        "trailer":"MoonfalVideo.mp4",
-        "inform": "Moonfall isimli aksiyon, fantastik ve macera kategorilerinde bulunan yapım gezegenimizin sona ermesine sadece haftalar kala ortaya çıkan bir kişi ve ona inanan bir avuç insanın dünya’yı kurtarmak için bir araya gelmelerini ve kimse onlara inanmazken tek başlarına giriştikleri kurtarma görevini konu almaktadır. Roland Emmerich’in yönetmenliğini üstlendiği ve yine Emmerich’in, Spencer Cohen ve Harald Kloser ile birlikte senaryosunda çalıştıkları filmde Halle Berry, Patrick Wilson ve John Bradley filmin kemik kadrosundaki ünlü simalardır. Belirlenemeyen bir gücün Ay’ı yörüngesinden oynatması sonucunda Ay’ın, Dünya’ya çarpacak konumda rota değiştirmesine neden olmasıyla birlikte Dünya’da hiçbir umut da kalmamıştır. Ancak bu panik ve umutsuzluk ortamında Jo Fowler isimli ve eski bir astronot olan bir kişi bu gidişatı durdurabileceğini iddia ettiğinde ona kimse inanmıştır. Fakat Jo yine de yalnız değildir ve ona destek olmak için Brian Harper ve K.C. isimli iki kişi hemen yanında yer almaktadırlar. Bu üçlü diğerleri gibi sonu beklemek yerine uzaya intihar görevine giderler ve Dünya gezegeni için de onlardan başka bir umut da kalmamıştır.",
-        "actors": [
-            { "id": 1, "image": "PatrickWilson.webp", "name": "Patric kWilson" },
-            { "id": 2, "image": "HalleBerry.webp", "name": "Halle Berry" },
-            { "id": 3, "image": "JohnBradley.webp", "name": "John Bradley" },
-            { "id": 4, "image": "EmeIkwuakor.webp", "name": "Eme Ikwuakor" },
-            { "id": 5, "image": "MichaelPena.webp", "name": "Michael Pena" },
-            { "id": 6, "image": "CarolinaBartczak.webp", "name": "Carolina Bartczak" }
-        ]
-      },
-      {
-        "id": 10,
-        "image": "N.K.Cards.webp",
-        "title": "Ninja Mutant Turtules",
-        "genre": "Anime",
-        "view": "4k",
-        "desc": "N.K.T.VideoImg.webp",
-        "trailer":"N.K.video.mp4",
-        "inform": "Yıllar boyu insanların dünyasından gizlenerek hayatlarını sürdüren Kaplumbağa kardeşler, insanlarla birlikte yaşamanın ve onların sevgisini kazanmanın hayalini kurmaktadırlar. Bir gün kahramanca bir kararla, normal gençler gibi kabul edilmek ve New Yorkluların kalbini kazanmak için evlerini terk ederler. Ancak bu yolculuk, onların tahmin ettiğinden çok daha karmaşık ve macera dolu olacaktır. Yeni edindikleri dostlarından biri olan April O'Neil, Kaplumbağa kardeşlere, gizemli bir suç örgütünün hain planlarını alt etmeye yardımcı olur. Bu örgüt, şehri kaosa sürüklemek ve halkı korku içerisinde yaşatmak niyetindedir. Kaplumbağa kardeşler ve April, bu örgütü durdurmak için birlikte hareket ederler. Ancak işler, planlandığından çok daha hızlı ilerler ve çok geçmeden Kaplumbağa kardeşlerin üzerine bir mutant ordusu salınır. Bu durum karşısında ne yapacaklarını bilmeyen kardeşler, başlarına gelenlerin boyutunu anlamaya başlarlar. Ancak onlar, hiçbir zaman ne olursa olsun pes etmeyi düşünmezler. Başlarından büyük işlere kalkıştıklarının farkında olan Kaplumbağa kardeşler, bu zorlu mücadelenin üstesinden gelmek için birlik olurlar. Kendi hayatlarını riske atarak, sevdikleri şehri ve insanları korumak için her türlü tehditle yüzleşmeye kararlıdırlar. Kendilerine yepyeni bir hayat kurmak ve insanlar arasında kabul görmek için verdikleri bu mücadele, onları gerçek birer kahramana dönüştürecektir.",
-        "actors": [
-            { "id": 1, "image": "Mikilancelo.png", "name": "Mikilancelo" },
-            { "id": 2, "image": "Rafael.jpeg", "name": "Rafael" },
-            { "id": 3, "image": "Sredir.webp", "name": "Sredir" },
-            { "id": 4, "image": "SenseySiplinter.png", "name": "Sensey Siplinter" },
-            { "id": 5, "image": "Daniello.png", "name": "Daniello" },
-            { "id": 6, "image": "Leonardo.jpeg", "name": "Leonardo" }
-        ]
-      },{
-        "id": 11,
-        "image": "OppenheimerCards.webp",
-        "title": "Oppenheimer",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "OppenhaimerVideoimg.jpg",
-        "trailer":"Oppenheimer.Video.mp4",
-        "inform": "J. Robert Oppenheimer, II. Dünya Savaşı sırasında gerçekleştirilen Manhattan Projesi'nde yer alan Los Alamos Laboratuvarı'nda çalışmalar yürüten bir teorik fizikçiydi. Bu projenin amacı, dünyanın ilk nükleer silahını üretmekti ve Oppenheimer, bu hedefi gerçekleştirmedeki önemli bir rol oynadı. Oppenheimer, bilim dünyasında büyük bir prestije sahip olan bir isimdi ve atom bombasının icat edilmesindeki liderlerden biriydi. Ta ki kendisi, bu proje üzerinde çalışırken trajik bir biçimde gölgede kalan bir figür haline gelene kadar. Projenin sonucunda Hiroşima ve Nagazaki'ye atılan atom bombaları, dünya tarihinde görülmemiş bir yıkıma ve insanlık için büyük bir felakete neden oldu. Oppenheimer, bu durumun farkına varır varmaz, kendi rolleri ve sorumlulukları hakkında derin bir iç hesaplaşmaya girdi. Atom bombasının icadı ve kullanılması konusunda büyük bir vicdani yük taşıyan Oppenheimer, zamanla pişmanlık ve üzüntü duydu. Oppenheimer'ın Manhattan Projesi'ndeki rolü ve sonrasında yaşadığı bu iç hesaplaşma, onu insanlık dışı bir silahın yaratıcısı olarak tanımladı. Oysaki Oppenheimer, başlangıçta bilimsel araştırmalar yapmak amacıyla projeye katılmıştı ve nükleer enerjinin barışçıl kullanımı hakkında umutlar taşıyordu. Ancak, II. Dünya Savaşı'nın etkisiyle proje, korkunç bir silah üretme amaçlı bir hedefe dönüştü. İnsanlık tarihindeki en büyük felaketlerden biri olan Hiroşima ve Nagazaki bombalamalarının ardından, Oppenheimer artık atom enerjisinin tehlikeleri konusunda uyarılarda bulunuyordu. Oppenheimer'ın Manhattan Projesi'ndeki rolü, bilimin gücünün insanlığın geleceğini şekillendirmede ne kadar büyük bir etkiye sahip olabileceğini göstermiştir. Bu deneyim, bilim insanlarının sorumluluklarını ve hangi amaçlar için çalıştıklarını önemli bir şekilde vurgulamıştır. Sonuç olarak, Oppenheimer'ın Manhattan Projesi'ndeki rolü, insanlık tarihine damga vuran bir olaydır. Atom bombasının icadı ve kullanılması, dünyayı değiştiren bir dönüm noktası olmuştur. Bu olay, bilimin gücünün yanı sıra insanın vicdani sorumluluğunu ve etik değerlerini de sorgulamamıza neden olmuştur.",
-        "actors": [
-            { "id": 1, "image": "CillianMurphy.webp", "name": "Cillian Murphy" },
-            { "id": 2, "image": "RobertDowneyJr.jpg", "name": "Robert Downey Jr" },
-            { "id": 3, "image": "MatthDamon.webp", "name": "Matth Damon" },
-            { "id": 4, "image": "EmilyBlunt.webp", "name": "Emily Blunt" },
-            { "id": 5, "image": "FlorencePugh.webp", "name": "Florence Pugh" },
-            { "id": 6, "image": "CaseyAffleck.webp", "name": "Casey Affleck" }
-        ]
-      },
-      {
-        "id": 12,
-        "image": "Smile-2-Carts.webp",
-        "title": "Smile-2",
-        "genre": "Herror",
-        "view": "4k",
-        "desc": "Smile-2-videoimg.jpg",
-        "trailer":"Smile-2-video.mp4",
-        "inform": "Birçok sinemaseverin ve eleştirmenin beğenisini toplayan, büyük bir gişe başarısına imza atan Smile; Rose Cotter isimli bir doktorun günün birinde bir hastasının yaptığı son dereece tuhaf bir olaya şahit olmasının ardından başından geçenleri konu alıyor. Bu travmatik olaya tanık olmasının ardından gün geçtikçe kötücül bir şeyin kendisini ele geçirdiğini fark eden Rose, hayatta kalabilmesi için tek şansının problemli geçmişiyle yüzleşmesi olduğunu keşfedecektir. Yönetmenliğini ve senaristliğini Parker Finn’in üstlendiği bu gerilim dolu yapım, IMDB’den 7.0 gibi son derece başarılı bir puan alıyor. İlk olarak 30 Eylül 2022 tarihinde izleyicilerin beğenisine sunulan ve bunu da fazlasıyla başaran Smile, korku türünde izleyicilerin karşısına çıkıyor. 4k formatlı filmin oyuncu kadrosunda ise Sosie Bacon, Kyle Gallner, Caitlin Stasey, Jessie T. Usher, Rob Morgan ve Kal Penn gibi isimler bulunuyor. Rose Cotter, bir psikiyatri koğuşunda çalışan; genç bir psikiyatristtir. Kısa süre önce profesörünün intihar ederek hayatını sonlandırdığını iddia eden Laura Weaver ile tanışan Rose, ondan gülümseyen bir insan şeklini alan bir iblis tarafından takip edildiğini öğrenir. Aradan geçen bir sürenin ardından ruh hali gittikçe kötü bir hal alan Laura’ın hayatına son verdiğine şahit olan Rose, aynı zamanda onun ölmeden önce kendisine gülümsediğini gördüğünde; büyük bir endişe yaşamaya başlar. Başına gelen ürkütücü olaylar bunlarla sınırlı kalmayan genç kadın, bir süre sonra başka hastaların kendisine gülümsediğini ve onların kendisine öleceğini söylemesiyle birlikte daha da kötü bir hal almaya başlar. Rose’un durumunun pek iyiye gitmediğini fark eden Dr. Morgan, genç kadına bir hafta kafasını toplayabilmesi ve kendisine gelebilmesi için izin verir. Ancak bu izin, Rose’a iyi gelmesi şöyle bir dursun; genç kadının birbirinden korkutucu olaylar yaşamasına neden olacaktır. Kedisinin ölümüyle başlayan birbirinden gizemli olaylar yaşayan Rose, gün geçtikçe akıl sağlığını yitirmeye başlar. Bu durumdan kurtulabilmenin tek yolu ise karanlık geçmişiyle yüzleşmek olacaktır.",
-        "actors": [
-            { "id": 1, "image": "LukasGage.jpeg", "name": "Lukas Gage" },
-            { "id": 2, "image": "NaomiScott.jpeg", "name": "Naomi Scott" }
-      
-        ]
-      },
-      {
-        "id": 13,
-        "image": "StealthCardss.webp",
-        "title": "Stelth",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "StealthVideoimg.jpeg",
-        "trailer":"StealthVideo.mp4",
-        "inform": "Yakın gelecekte, ABD Donanması, şaşırtıcı yük, menzil, hız ve gizli yeteneklere sahip tek kişilik bir savaş uçağı olan F / A-37 Talon'u geliştiriyor. Her ne kadar yüzlerce pilot program için başvuruda bulunsa da, bu çok gizli ve dolayısıyla kasıtlı olarak küçük tutuluyor. Programda Teğmen Ben Gannon, Kara Wade ve Henry Purcell tarafından kullanılan üç uçak yer alıyor. Yüzbaşı George Cummings da genel başkan. Cummings, programı ilerleten insansız bir jeti kontrol etmek için yapay bir zeka (EDI) geliştirmek için Dr. Keith Orbit'i işe alıyor. EDI, pilotlardan savaş manevraları öğrenmek için Filipin Denizi'ndeki USS Abraham Lincoln'deki diğerlerine katılıyor. Bu, insan pilotların savaşın çirkinliği konusunda hem yaratıcılığa hem de ahlaki yargıya sahip olmalarına dayanıyor. Ekip, Rangoon şehir merkezindeki bir konferansta beklenmedik bir şekilde ortaya çıkan üç terörist üzerinde EDI eğitiliyor. EDI, görev başarısının ancak bir insan pilotun kaybıyla ve hasarla mümkün olduğunu hesaplar. Komutan, EDI'ye ateş etmesini emreder, ancak Gannon emri göz ardı eder. Takım Lincoln'e döndüğünde, EDI sinirsel modellerini yeniden programlanır. EDI'nın katlanarak öğrendiği, ilkel bir etik kod ve bir ego geliştirdiği keşfedilse de, Cummings bunu çevrimdışı yapmayı reddeder.",
-        "actors": [
-            { "id": 1, "image": "JamieFoxx.jpeg", "name": "Jamie Foxx" },
-            { "id": 2, "image": "JessicaBiel.jpeg", "name": "Jessica Biel" },
-            { "id": 3, "image": "JoeMorton.jpeg", "name": "Joe Morton" },
-            { "id": 4, "image": "JoshLucas.jpeg", "name": "Josh Lucas" },
-            { "id": 5, "image": "RichardRoxburgh.jpeg", "name": "Richard Roxburgh" },
-            { "id": 6, "image": "SamShepard.jpeg", "name": "Sam Shepard" }
-        ]
-      },
-      {
-        "id": 14,
-        "image": "teenWolfCards.webp",
-        "title": "Teen Wolf",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "teen-wolfVideoimg.jpg",
-        "trailer":"teenWolfVideo.mp4",
-        "inform": "Yayınlanan televizyon dizisiyle birlikte izleyicilerin büyük ilgisini ve beğenisini toplamayı başaran Teen Wolf: The Movie, aynı dizisi gibi son derece beğenilecek filmini de sinemaseverlerle buluşturuyor. Dizinin konusuna ve karakterlerine bağlı kalınan bu yapımda, uzun yıllar huzur ve barışın hakim olduğu Beacon Hills’te; yepyeni bir tehlike ortaya çıkacaktır. Şimdiye kadar Beacon Hills’in karşılaştığı en büyük ve en güçlü bu tehlikeyle savaşmak için tüm şekil değiştirenlerin bir araya gelmesi gerekecek ve bu birlikteliği sağlayabilecek tek kişi ise Scot McCall olacaktır. İlk gösterimini 26 Ocak 2023 tarihinde yapan bu filmin yönetmenliğini Russell Mulcahy üstlenirken, 4k filmin senaryosu ise Jeff Davis’in imzasını taşıyor. Aksiyon, dram ve fantastik türlerde izleyicisinin karşısına çıkan yapım; IMDB’den de 6.9 puan alıyor. Oyuncu kadrosunda Tyler Posey, Crystal Reed, Holland Roden, Tyler Hoechlin, Shelley Hennig, Ian Bohen ve daha birçok ünlü ismin bulunduğu filmin hikayesi ise şöyle gelişiyor … Bu zamana kadar birçok şekil değiştiren arasında meydana gelen birçok savaşa ev sahipliği yapan Beacon Hills kasabasına bir süre önce barış gelmiş ve kasabadaki herkes uzun yıllar boyunca huzurlu bir şekilde yaşamıştır. Ancak dolunayın yükselmesiyle birlikte bu huzur, yavaş yavaş kaybolmak üzeredir. Çünkü bu dolunay, beraberinde kasabaya daha öncekilerden çok daha güçlü bir tehlikeyi getirmiş ve hem şekil değiştirenlerin; hem de kasabada yaşayan sıradan insanların hayatı büyük bir tehlike altına girmiştir. Böylesine bir tehlikeyle karşılaşan kasabanın, bu tehlikeyle savaşabilmesinin tek yolu ise; Banshee’lerin, Werecoyote’lerin, Hellhound’ların, Kitsune’lerin ve daha birçok şekilde değiştirenlerin bir araya gelip iş birliği yapması olacaktır. Ancak tüm bu şekil değiştirenleri bir araya getirmek pek de kolay olmayacaktır. Bu birlikteliği sağlayabilecek tek kişi olan alfa kurt Scott McCall (Tyler Posey), eğer yeni ve eski dostlarını bir araya getiremezse; çocukluğunun geçtiği ve dostlarının yaşadığı kasabanın yıkımına tanıklık edecektir. Artık her şey, Scott McCall’a bağlıdır.",
-        "actors": [
-            { "id": 1, "image": "MiekoHillman.jpeg", "name": "Mieko Hillman" },
-            { "id": 2, "image": "MaxCarver.jpg", "name": "Max Carver" },
-            { "id": 3, "image": "JohnWesleyShipp.jpeg", "name": "John Wesley Shipp" },
-            { "id": 4, "image": "HillaryBrant.jpeg", "name": "Hillary Brant" },
-            { "id": 5, "image": "DesireeHall.jpeg", "name": "DesireeHall" },
-            { "id": 6, "image": "AdamRosenberg.jpeg", "name": "Adam Rosenberg" }
-        ]
-      },
-      {
-        "id": 15,
-        "image": "transform7Cards.webp",
-        "title": "Transform-7",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "transform7Videoimg.jpeg",
-        "trailer":"transform7Video.mp4",
-        "inform": "Birçok izleyicinin izlerken fazlasıyla keyif aldığı ve sinema dünyasında kendisine değiştirilmez bir yer edinmeyi başarmış olan Transformers serisinin altıncı filmi olan Transformers: Rise of the Beasts, tam 6 yıllık aranın ardından bir kez daha sinemaseverlerin karşısına çıkıyor. İlk olarak 2007 yılında çıkan Transformers filmiyle beyazperdeye merhaba diyen serinin altıncı filmi olan bu yapımda, sinemaseverler 90-lı yılların havasını sonuna kadar içine çekecek. Transformers dünyasının daha önce görülmeyen üyeleri Maximal ve Terroconları göreceğimiz bu yapımda, yıllardır süregelmekte olan Autobot ve Decepticonların savaşına da bir an olsun ara verilmeyecek. Kendilerini bu iki grubun arasında bulan diğer Transformer üyeleri, kendilerine bir taraf seçmek zorunda kalacaktır. Yönetmenliğini Steven Caple Jr.’ın üstleneceği bu yapımın hikayesi ise Matt Holloway, Art Marcum ve Ken Nolan’ın elinden çıkacak. Aksiyon, macera ve bilim kurgu türlerinde sinemaseverlerin karşısına çıkacak olan bu yeni Transformers filmi; sinemaseverlerin 2023 yılında izlemek için sıraya girdikleri filmlerin kesinlikle başında gelecektir. Bir önceki filmlere göre biraz daha farklı bir hikayeyle sinemaseverlerin karşısına çıkacak olan yapım, hiç şüphesiz her zaman olduğu gibi izleyicilere heyecan dolu bir deneyim sunacaktır. Amerika Birleşik Devletleri yapımı olan Transformers serisinin yeni filminin çıkış tarihinin ise 9 Haziran 2023 olması bekleniyor. 4k formatlı filmin oyuncu kadrosunda da Michelle Yeoh, Pete Davidson, Ron Perlman, Anthony Ramos ve Peter Cullen gibi isimler bulunacak.",
-        "actors": [
-            { "id": 1, "image": "NoahDiaz.jpg", "name": "Noah Diaz" },
-            { "id": 2, "image": "LunaLaurenVelez.jpeg", "name": "Luna Lauren Velez" },
-            { "id": 3, "image": "SarahStiles.jpg", "name": "Sarah Stiles" },
-            { "id": 4, "image": "TobeNwigwe.jpeg", "name": "Tobe Nwigwe" },
-            { "id": 5, "image": "JobyHarold.jpeg", "name": "Joby Harold" },
-            { "id": 6, "image": "DeanScottVazquez.jpeg", "name": "Dean Scott Vazquez" }
-        ]
-      },
-      {
-        "id": 16,
-        "image": "U.B.Y.Bcards.webp",
-        "title": "Uc Bin Yillik Bekleyis",
-        "genre": "Fantastik",
-        "view": "4k",
-        "desc": "U.B.Y.B.Videoimg.jpg",
-        "trailer":"U.B.Y.B..Video.mp4",
-        "inform": "Three Thousand Years of Longing , hayatını kavanozun içerisinde hapsedilmiş bir şekilde geçiren bir cin ile Alithea isimli bir bilgenin aralarında bir anlaşma yapmalarının ardından aralarında geçen olaylar konu alıyor. Cin, eğer Alithea kendisinin özgürlüğünü kazanmasına yardım edebilirse; onun üç dileğini yerine getirebileceğini söyler. Fakat ikilinin anlaşmaları, pek de bekledikleri gibi ilerlemeyecektir. Sevilen yönetmen George Miller’in yönetmenlik koltuğunda oturduğu bu keyifli yapımın senaristliğini ise yine George Miller , A.S. Byatt ve Augusta Gore üstleniyor. Dram, fantastik ve romantik türlerinde karşımıza çıkan yapım; IMDB’den de 6.8 puan alıyor. 4k formattaki filmin oyuncu kadrosunda ise Tilda Swinton ve Idris Elba bulunuyor. İngiliz bir bilim insanı olan Alithea Binnie, zaman zaman bazı gizemli varlıklarla karşılaştığı tuhaf halisünasyonlar gören; yalnız bir kadındır. Günün birinde İstanbul’a bir geziye giden Alithea, burada garip antika bir şişe satın alır. Daha sonra Alithea, istemeden olsa şişenin içerisinde sıkışan bir cini serbest bırakır. Bunun ardından Cin, kendisini serbest bıraktığı için Allithea’ya eğer gerçekleşmesi içten  istiyorsa gerçekleştirilecek olan üç dilek hakkı sunar. Ancak Alithea, dilek tutmanın yanlış bir şey olduğunu söyleyerek; bu nedenden dolayı Cin’i suçlamaya başlar. Bunun ardından Alithea’ya suçlamaları karşısında hiçbir şey söylemeyen Cin, ona geçmişinden üç hikayeyi ve en sonunda nasıl bu şilenin içerisinde sıkıştığını anlatmaya başlar. İlk başlarda Cin, Alithea’ya Kral Solomon’un kendisini bir şişeye hapsettiğini söyler. Daha sonra Cin, Kanuni Sultan Süleyman’ın sarayında yaşayan genç bir cariye olan Gülten’in kendisini nasıl bulduğunu ve ondan yerine getirmesi için dilek dilemesinin ardından yaşadıklarını anlatır. Dilediği dileklerden sonra başına gelmedik olay kalmayan Gülten, en sonunda şişeyi bırakıp kaçar. Hikayelerine devam ettikçe kendisini Cin’e daha da yakın hissetmeye başlayan Alithea, en sonuna kendisini ona aşık olmuş olarak bulacak ve üç dileğini dileyecektir. Bu üç dileğin en sonuncusu da, Cin’in özgür kalabilmesi için olacaktır.",
-        "actors": [
-            { "id": 1, "image": "TildaSwinton.jpg", "name": "Tilda Swinton" },
-            { "id": 2, "image": "IdrisElba.jpeg", "name": "Idris Elba" },
-            { "id": 3, "image": "EceYüksel.jpeg", "name": "Ece Yüksel" },
-            { "id": 4, "image": "LachyHulme.jpeg", "name": "Lachy Hulme" },
-            { "id": 5, "image": "MeganGale.jpeg", "name": "Megan Gale" },
-            { "id": 6, "image": "AamitoLagum.jpg", "name": "Aamito Lagum" }
-        ]
-      }
+      "id": "2",
+      "image": "bluebetlecard.webp",
+      "title": "Blue-Beetle",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "bluebetlevideoimg.jpeg",
+      "trailer": "bluebetlevideo.mp4",
+      "inform": "Ergenlik çağına yeni adım atmış olan Jamie Reyes, okul çıkışında en iyi arkadaşları Paco ve Brenda ile birlikte evlerine dönerler. Yolda ilerlerken tuhaf bir şekilde karşılaşılan alışılmadık bir böcekle karşılaşırlar. Bu böcek, normalden farklı olarak garip bir araziye gömülü halde bulunur. Reyes, bu durum karşısında büyük bir merak duyar ve böceği daha yakından incelemek amacıyla eve götürmeye karar verir. Ancak gece olunca, beklenmedik bir olay gerçekleşir. İncelenmeye alınan böcek, canlanır ve Jamie Reyes'in omurgasına yapışır. Bu beklenmedik durum sonucunda Jamie, sahip olduğu dönüştürülebilir kostüm sayesinde inanılmaz bir hız ve güç kazanır. Bu kostüm, Jamie'nin sadece hızını ve gücünü arttırmakla kalmaz, aynı zamanda dövüş sırasında ihtiyacı olacak çeşitli silahları, kanatları ya da kalkanları üretebilme yeteneği de kazandırır. Kısacası, bu olağanüstü kostüm Jamie'ye neredeyse süper kahraman benzeri bir güç sağlar. ",
+      "actors": [
+        {
+          "id": 1,
+          "image": "XoloMariduena.webp",
+          "name": "Xolo Mariduena"
+        },
+        {
+          "id": 2,
+          "image": "BurunaMarquezine.webp",
+          "name": "Buruna Marquezine"
+        },
+        {
+          "id": 3,
+          "image": "HarveyGuillen.webp",
+          "name": "Harvey Guillen"
+        },
+        {
+          "id": 4,
+          "image": "BelissaEscobedo.webp",
+          "name": "Belissa Escobedo"
+        },
+        {
+          "id": 5,
+          "image": "ElpidiaCarrilo.webp",
+          "name": "ElpidiaCarrilo"
+        },
+        {
+          "id": 6,
+          "image": "GeorgeLopez.webp",
+          "name": "George Lopez"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "C.B.S.E.cards.webp",
+      "title": "Cadilar-Bayrami-Sona-Eriyor",
+      "genre": "Herror",
+      "view": "4k",
+      "desc": "C.B.S.E.videoimg.jpeg",
+      "trailer": "C.B.S.E.video.mp4",
+      "inform": "Michael Myers ve Laurie Strode'un efsanevi savaşlarında heyecanı ve gerilimi en üst noktaya taşıyan ve serinin son bölümü olarak açıklanan 4k formatlı Halloween Ends isimli korku ve gerilim filminde serinin nasıl sonlandırılacağı henüz bir sır olma özelliğini korumaktadır. Ancak Halloween Kills filminde yani bir önceki bölümde Michael tüm eski kurban yakınları tarafından ve kendi ailesi tarafından tuzağa düşürülmüş ve korkunç şekilde cezalandırılmıştı. Defalarca bıçaklanan, kurşunlanan ve dövülen Michael herkesi kandırmayı başarmış ve ailesi öldüğünü sanıp eski evlerinin verandasında kendilerince sevinirken geride kalan herkesi acımasızca katletmiş ve sonrasında da eski evlerine dönüp yarım kalan bir aile işini de tamamlamıştır. Fakat serinin bu son bölümüne dair herhangi bir film konusu açıklaması yapılmamıştır.Serinin bu final bölümünde ise David Gordon Green filmin yönetmen koltuğundaki isimken, Green’e, Chris Bernier ve John Carpenter isimleri de senaryoda eşlik etmektedirler. Jamie Lee Curtis, Andi Matichak ve Nick Castle isimleri ise filmin başrol oyuncu kadrosundaki simalardır. Michael korkunç gücü sayesinde bir önceki bölümden sağ bir şekilde kurtulmasının sonrasında bu sefer de ölüme bir kez daha meydan okuyabilecek midir? Serinin bu final bölümünde Michael hangi yarım kalan işlerini tamamlayacaktır? Gerçekten de cadılar bayramı bu sefer sonsuza dek sona erecek midir?",
+      "actors": [
+        {
+          "id": 1,
+          "image": "JameLeeCurtis.jpg",
+          "name": "Jame Lee Curtis"
+        },
+        {
+          "id": 2,
+          "image": "AndiMathic.jpg",
+          "name": "Andi Mathic"
+        },
+        {
+          "id": 3,
+          "image": "JudyGreer.jpg",
+          "name": "Judy Greer"
+        },
+        {
+          "id": 4,
+          "image": "JamesJudeCourtney.jpg",
+          "name": "James Jude Courtney"
+        },
+        {
+          "id": 5,
+          "image": "KyleRichards.jpg",
+          "name": "Kyle Richards"
+        },
+        {
+          "id": 6,
+          "image": "will-patton.jpg",
+          "name": "Will Patton"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "E.C.cards.webp",
+      "title": "Esrarengiz-Canavar",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "E.C.videoimg.jpg",
+      "trailer": "E.C.video.mp4",
+      "inform": "İlk gösterimini 1 Aralık 2022 tarihinde yapan bir film olan Troll hem başarılı görsel efektleri; hem de sürükleyici hikayesiyle birlikte siz değerli izleyicilerimize son derece keyifli bir 4k film deneyimi yaşatmayı başarıyor. Norveç efsanelerinden uyarlanarak beyazperdeye aktarılan bu yapımda, günün birinde Dovre Dağı’nda binlerce yıllık esirlikten kurtulmayı başaran devasa ve korkunç bir yaratık; binlerce yıllık bu uykunun ardından karşısına çıkan herkesi birer birer yok etmeye başlar. Kısa süre içerisinde Norveç’in başkentine ulaşacak olan ve burayı da silip süpürecek bu yaratığı durdurabilmek için yetkililer, son derece zorlu bir mücadeleye girişecektir. Norveç yapımı bir film olan Troll’un yönetmenlik koltuğunda Roar Uthaug otururken, filmin senaryosu ise Espen Aukan ile Roar Uthaug ikilisinin imzasını taşıyor. Aksiyon, macera ve dram türlerinde izleyicilerinin karşısına çıkan yapım; IMDB’den 7.2 gibi son derece başarılı bir puan alırken, filmin oyuncu kadrosunda ise Ine Marie Wilmann, Kim Falck, Mads Sjøgård Pettersen, Gard B. Eidsvold ve Anneke von der Lippe gibi isimler yer alıyor. Norveç efsanelerine göre son derece büyük, korkutucu ve devasa olan Troll adında bir varlık; bundan binlerce yıl önce etrafına tehlike arz etmesi nedeniyle Dovre Dağı’na hapsedilmiştir. Norveç halkı arasında bir efsane olarak dolaşan bu hikayeye çok az kişi inanırken, kısa süre sonra Norveç’teki insanlar hiç de istemeyecekleri bir şekilde bu hikayenin gerçekliğini öğrenecektir. Çünkü binlerce yıllık esaretin ardından Troll isimli bu yaratık tutsaklığından kurtulmayı başarmış ve önüne gelen herkesi birer birer yok etmeye başlamıştır. Dağdan kurtulmasının ardından Norveç’in başkenti, Oslo’ya ilerlemekte olan bu Troll’ün varlığından haberdar olan yetkililer ise devasa bir felaket yaşanmadan önce şehirdeki insanları kurtarmaya ve Troll’ü etkisiz hale getirmeye çalışacaktır.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "MadsSjogardPetter.jpg",
+          "name": "Mads Sjogard Petter"
+        },
+        {
+          "id": 2,
+          "image": "PalAndersNordvi.jpg",
+          "name": "Pal Anders Nordvi"
+        },
+        {
+          "id": 3,
+          "image": "IneMarieWilhem.jpg",
+          "name": "Ine Marie Wilhem"
+        },
+        {
+          "id": 4,
+          "image": "GardB.Eidsvold.jpg",
+          "name": "Gard B. Eidsvold"
+        },
+        {
+          "id": 5,
+          "image": "AnnekeVonDerLippe.jpg",
+          "name": "Anneke Von Der Lippe"
+        },
+        {
+          "id": 6,
+          "image": "KimS.Falck.jpg",
+          "name": "Kim S. Falck"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "E-2Cards.webp",
+      "title": "Extenction-2",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "E-2Videoimg.png",
+      "trailer": "extenctionVideo.mp4",
+      "inform": "Bangladeş'in, Dhaka kentindeki tehlikeli bir görevden mucizevi bir şekilde sağ kurtulan Tyler Rake, güvendiği ekibiyle birlikte bir sonraki görevlerine hazır olarak geri döndü. Bu kez, Georgia'lı kötü şöhretli bir gangster tarafından esir alınan bir aileyi kurtarmakla görevlendirilirler. Tyler onları kurtarmak için dünyanın en ölümcül hapishanelerinden birine sızmalıdır.  Hapishanenin içinde, Tyler ve ekibi sürekli tehditlerle karşı karşıya kalır.  Ancak kurtarma operasyonu sırasında işler beklenmedik bir hal alır. Şiddetli bir savaşın ortasında, intikam ateşiyle hareket eden gangsterin acımasız erkek kardeşi, Tyler ve ekibini Avustralya'yakadar takip eder. Gangsterin erkek kardeşi peşlerindeyken, Tyler ve ekibi kendilerini çok tehlikeli bir kedi fare oyununun içinde bulurlar. ",
+      "actors": [
+        {
+          "id": 1,
+          "image": "ChrisHemsworth.jpg",
+          "name": "Chris Hemsworth"
+        },
+        {
+          "id": 2,
+          "image": "DanielBernhardt.jpg",
+          "name": "Daniel Bernhardt"
+        },
+        {
+          "id": 3,
+          "image": "OlgaKurylenko.jpg",
+          "name": "Olga Kurylenko"
+        },
+        {
+          "id": 4,
+          "image": "SineadPhelps.jpg",
+          "name": "Sinead Phelps"
+        },
+        {
+          "id": 5,
+          "image": "TinatinDalakishcili.jpg",
+          "name": "Tinatin Dalakishcili"
+        },
+        {
+          "id": 6,
+          "image": "AdamBessa.jpg",
+          "name": "Adam Bessa"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "H.V.O.10.Cards.webp",
+      "title": "Hizli VE Ofkeli X",
+      "genre": "Aksion",
+      "view": "4k",
+      "desc": "H.V.O.10.Videoimg.webp",
+      "trailer": "H.V.O.10.Video.mp4",
+      "inform": "Fast X filminin 19 Mayıs 2023 tarihinde seyirciyle buluşması planlanıyor. Aksiyon, macera ve suç kategorilerine giren yapım Hızlı ve Öfkeli 9’un devamı niteliğindedir. Filmin dili de İngilizcedir. Serinin 9. Filminde Dom büyük bir tehlikeyle karşı karşıyaydı ve bu tehlikenin ucu ailesine de dokunmaktadır. Dom’un tek amacı ise oğlu ve her şeyden çok sevdiği Brian’ı korumaktır. Sessiz sakin bir hayat sürme hayali olan Dom oğlu ve Letty ile birlikte gözlerden uzak bir yaşam sürmektedir. Tabii bu çok uzun sürmez. Eskilerden bir düşman Dom’u rahatsız etmeye başlar Dom’da bunun için ekibi tekrar bir araya getirir. Büyük bir mücadele veren ekip yapımın 10 filminde yani Fast X’de de yarıda kalan mücadelelerine devam ediyorlar. Peki bu sefer ekip davayı kapatabilecek mi? Bu yolculukta neleri feda etmeleri gerekecek? Aksiyon ve macera dolu hikâyenin 10. filminde neler olacak? Hızlı ve Öfkeli serisinin Fast & Furious 10 filminde diğer filmlerden de tanıdığımız yüzler bizlere eşlik ediyor. Bu isimler Hızlı ve Öfkeli filminin yıldızı Vin Diesel, Game of Thrones dizisinde performans sergileyen Nathalie Emmanuel, Lost dizisinde yer alan ve yine Hızlı ve Öfkeli serisinin yıldızlarından Michelle Rodriguez, Dallas dizisinde oynayan Jordana Brewster, Tyrese Gibson, John Cena, Sung Kang ve Ludacris gibi ünlü isimler ve daha fazlasıdır. Bu isimlere ek yapımda bize eşlik eden yeni isimler ise Captain Marvel ve Room filmlerinde yer alan Brie Larson, Aquaman ve Justice League filmlerinde yer alan Jason Momoa, Mad Max: Fury Road ve Pamuk Prenses ve Avcı filmlerinde yer alan Charlize Theron, 2023 yapımı The Suicide Squad filminde yer alan Daniela Melchior ve daha fazlasıdır. 4k filmin yönetmen koltuğunda oturan ismin diğer filmlerde de yönetmenlik yapmış olan Justin Lin olacağı söylentileri dolanmaktadır. Filmin senaryosunda yer alan isim ise önceki Hızlı ve Öfkeli filmlerinin senaryoları ile birlikte Knight Rider ve Taxi Brooklyn gibi filmlerin senaristliğini yapmış olan Gary Scott Thompson’dır. ",
+      "actors": [
+        {
+          "id": 1,
+          "image": "VinDiesel.jpg",
+          "name": "Vin Diesel"
+        },
+        {
+          "id": 2,
+          "image": "JasonMomoa.jpg",
+          "name": "Jason Momoa"
+        },
+        {
+          "id": 3,
+          "image": "JordanaBrewster.jpg",
+          "name": "Jordana Brewster"
+        },
+        {
+          "id": 4,
+          "image": "JohnCena.jpg",
+          "name": "John Cena"
+        },
+        {
+          "id": 5,
+          "image": "MichelleRodriguez.jpg",
+          "name": "Michelle Rodriguez"
+        },
+        {
+          "id": 6,
+          "image": "TyreseGibson.jpg",
+          "name": "Tyrese Gibson"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "image": "L.B.G.cards.webp",
+      "title": "Luther Batan Gunes",
+      "genre": "Aksion",
+      "view": "4k",
+      "desc": "L.B.G.Videoimg.jpeg",
+      "trailer": "L.B.G.video.mp4",
+      "inform": "Bu yüzyirmi dakikalık uzun serüven boyunca siz değerli izleyicilerimizi her geçen saniye daha da büyük bir gizemin içine sürükleyecek bir film olan Luther: The Fallen Sun, John Luther adında başarılı ancak geçmişi pek de parlak olmayan bir dedektifi merkezine alıyor. Günün birinde psikopat bir seri katilin Londra’yı birbirine kattığını öğrenen Luther, bu seri katili durdurabilmek adına hapishaneden çıkmaktan başka bir seçeneği olmadığını fark edecektir. İngiltere yapımı 4k bir film olan Luther: The Fallen Sun’un yönetmenlik koltuğunda Jamie Payne otururken, filmin senaryosu ise Neil Cross’un imzasını taşıyor. İlk gösterimini 10 Mart 2023 tarihinde yapan bu film, izleyicisinin karşısına suç; dram ve gizem türlerinde çıkarken, IMDB’den de tam 7.0 puan almayı başarıyor. Oyuncu kadrosunda Idris Elba, Andy Serkis, Cynthia Erivo, Dermot Crowley ve Andy Apollo gibi isimlerin yer aldığı filmin hikayesi ise şöyle gelişiyor … Geçmişte birbirinden önemli suçluları yakalamayı başarmış olan, son derece zeki ve bir o kadar da hırslı bir dedektif olan John Luther (Idris Elba); şimdilerde yaptığı utanç verici bir şey nedeniyle demir parmaklıklar ardında yaşamaktadır. Bir zamanlar herkesin en gözde dedektifi olan John Luther, aynı zamanda yaptığı bu şey nedeniyle gözden de düşmüş ve adeta hapishanenin içerisinde unutulup gitmiştir. Ancak günün birinde Londra’da sapkın ve bir o kadar acımasız bir seri katilin ortaya çıkması, Luther’in içindeki dedektif ruhunu yeniden ortaya çıkaracaktır. Bu acımasız seri katilin Londra’da terör estirdiğini öğrenen Luther, her şeyi bir kenara bırakarak kendisinden intikam almak için her yola başvuran bu adamın peşine düşmeye karar verir. Ancak hapishanede olması nedeniyle bu soruşturmaya yeteri kadar kendisini veremeyen Luther, hapishaneden kaçmaktan başka çaresi olmadığını fark eder ve bu acımasız seri katili yakalayabilmek için hapishaneden firar eder. Bu zorlu soruşturmayı çözebilmek için elinden gelen her şeyi yapmaya hazır olan Luther, bunu başarabilecek midir?",
+      "actors": [
+        {
+          "id": 1,
+          "image": "IdrisElba.jpg",
+          "name": "Idris Elba"
+        },
+        {
+          "id": 2,
+          "image": "HattieMorahan.webp",
+          "name": "Hattie Morahan"
+        },
+        {
+          "id": 3,
+          "image": "ThomasCoombes.jpg",
+          "name": "Thomas Coombes"
+        },
+        {
+          "id": 4,
+          "image": "DermotCrowley.jpg",
+          "name": "Dermot Crowley"
+        },
+        {
+          "id": 5,
+          "image": "CynthiaErivo.jpg",
+          "name": "Cynthia Erivo"
+        },
+        {
+          "id": 6,
+          "image": "AndySerkis.webp",
+          "name": "Andy Serkis"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "image": "M.I.7cards.webp",
+      "title": "Mission Imponsible-7",
+      "genre": "Aksion",
+      "view": "4k",
+      "desc": "M.I.7.Videoimg.png",
+      "trailer": "M.I.7.Video.mp4",
+      "inform": "Görevimiz Tehlike serisinin 7. Filmi olan bu 4k formatlı filmde Tom Cruise’u yine efsaneleşmiş Ethan Hunt rolünde izliyoruz. Film yine Ethan’ın ve birlikte çalıştığı IMF ekibinin başına gelen birtakım olayları ele alıyor. Bir önceki filmde Berlin’de bir kurtarma görevi sırasında işler ters gitmişti ve dünya büyük bir tehlikeyle karşı karşıya kalmıştı. Bir şekilde CIA ile farklı düşünen Ethan, CIA’i dinlememişti ve karşılığında CIA onu kara listesine almıştı. Bu yüzden kendi yanındakiler bir anda ona karşı olmuşlardı. Peki bu sefer Ethan’ı nasıl bir aksiyon bekliyor? Aksiyon, macera ve gerilim türündeki Mission: Impossible 7 filminin oyuncu kadrosunda Tom Cruise’a ek olarak bir önceki filmlerde karşımıza çıkan Rebecca Ferguson, Fast & Furious Presents: Hobbs & Shaw filminde izlediğimiz Vanessa Kirby, yine diğer Görevimiz Tehlike filmlerinde izlediğimiz Simon Pegg ve Captain America: The First Avenger filminden Hayley Atwell gibi isimler yer almakta. 19 Kasım 2021 vizyon tarihli Amerikan filmini beyaz perdeye aktaran yönetmen Christopher McQuarrie, The Tourist ve Jack the Giant Slayer gibi filmlere ek olarak Tom Cruise’un yer aldığı birçok filmin de yönetmenliğini yapmıştır. Mission: Impossible 7, McQuarrie’nin yönettiği üçüncü Görevimiz Tehlike filmidir. Senaryoda ise Christopher McQuarrie’ye ek olarak Bruce Geller’ın da adı bulunuyor. Film henüz çıkmadan, sevenleri ve sevmeyenleri de dahil olarak birçok sinema seyircisi tarafından birtakım olaylar sebebiyle duyulmuştu. Çekimler pandemiye denk geldiği halde belli kurallar çerçevesinde yapıldı. Lakin çekimler sırasında Tom Cruise’un bir ses kaydı setteki birileri tarafından sızdırıldı. Tom Cruise sette pandemi önlemlerine uymayan birkaç çalışana bağırıyordu bu ses kaydında. Birçok sinema sever Tom Cruise’a hak verirken, çoğu kişide bağırmasının yanlış olduğunu söyledi. Olay kötüymüş gibi görünse de bu durum birçok kişinin filmi henüz çıkmadan duymasını sağladı. Görevimiz Tehlike tutkunlarının merakla beklediği filmin 8. ve devam filminin ise 2022’de vizyona girmesi bekleniyor. ",
+      "actors": [
+        {
+          "id": 1,
+          "image": "TomCrus.jpeg",
+          "name": "Tom Crus"
+        },
+        {
+          "id": 2,
+          "image": "RebeccaFerguson.jpeg",
+          "name": "Rebecca Ferguson"
+        },
+        {
+          "id": 3,
+          "image": "SimonPegg.jpeg",
+          "name": "Simon Pegg"
+        },
+        {
+          "id": 4,
+          "image": "VanessaKirby.jpeg",
+          "name": "Vanessa Kirby"
+        },
+        {
+          "id": 5,
+          "image": "EsaiMorales.jpeg",
+          "name": "Esai Morales"
+        },
+        {
+          "id": 6,
+          "image": "VingRhames.jpeg",
+          "name": "Ving Rhames"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "image": "moonfalCards.webp",
+      "title": "Moonfall",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "moonfalVideoimg.jpg",
+      "trailer": "MoonfalVideo.mp4",
+      "inform": "Moonfall isimli aksiyon, fantastik ve macera kategorilerinde bulunan yapım gezegenimizin sona ermesine sadece haftalar kala ortaya çıkan bir kişi ve ona inanan bir avuç insanın dünya’yı kurtarmak için bir araya gelmelerini ve kimse onlara inanmazken tek başlarına giriştikleri kurtarma görevini konu almaktadır. Roland Emmerich’in yönetmenliğini üstlendiği ve yine Emmerich’in, Spencer Cohen ve Harald Kloser ile birlikte senaryosunda çalıştıkları filmde Halle Berry, Patrick Wilson ve John Bradley filmin kemik kadrosundaki ünlü simalardır. Belirlenemeyen bir gücün Ay’ı yörüngesinden oynatması sonucunda Ay’ın, Dünya’ya çarpacak konumda rota değiştirmesine neden olmasıyla birlikte Dünya’da hiçbir umut da kalmamıştır. Ancak bu panik ve umutsuzluk ortamında Jo Fowler isimli ve eski bir astronot olan bir kişi bu gidişatı durdurabileceğini iddia ettiğinde ona kimse inanmıştır. Fakat Jo yine de yalnız değildir ve ona destek olmak için Brian Harper ve K.C. isimli iki kişi hemen yanında yer almaktadırlar. Bu üçlü diğerleri gibi sonu beklemek yerine uzaya intihar görevine giderler ve Dünya gezegeni için de onlardan başka bir umut da kalmamıştır.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "PatrickWilson.webp",
+          "name": "Patric kWilson"
+        },
+        {
+          "id": 2,
+          "image": "HalleBerry.webp",
+          "name": "Halle Berry"
+        },
+        {
+          "id": 3,
+          "image": "JohnBradley.webp",
+          "name": "John Bradley"
+        },
+        {
+          "id": 4,
+          "image": "EmeIkwuakor.webp",
+          "name": "Eme Ikwuakor"
+        },
+        {
+          "id": 5,
+          "image": "MichaelPena.webp",
+          "name": "Michael Pena"
+        },
+        {
+          "id": 6,
+          "image": "CarolinaBartczak.webp",
+          "name": "Carolina Bartczak"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "image": "N.K.Cards.webp",
+      "title": "Ninja Mutant Turtules",
+      "genre": "Anime",
+      "view": "4k",
+      "desc": "N.K.T.VideoImg.webp",
+      "trailer": "N.K.video.mp4",
+      "inform": "Yıllar boyu insanların dünyasından gizlenerek hayatlarını sürdüren Kaplumbağa kardeşler, insanlarla birlikte yaşamanın ve onların sevgisini kazanmanın hayalini kurmaktadırlar. Bir gün kahramanca bir kararla, normal gençler gibi kabul edilmek ve New Yorkluların kalbini kazanmak için evlerini terk ederler. Ancak bu yolculuk, onların tahmin ettiğinden çok daha karmaşık ve macera dolu olacaktır. Yeni edindikleri dostlarından biri olan April O'Neil, Kaplumbağa kardeşlere, gizemli bir suç örgütünün hain planlarını alt etmeye yardımcı olur. Bu örgüt, şehri kaosa sürüklemek ve halkı korku içerisinde yaşatmak niyetindedir. Kaplumbağa kardeşler ve April, bu örgütü durdurmak için birlikte hareket ederler. Ancak işler, planlandığından çok daha hızlı ilerler ve çok geçmeden Kaplumbağa kardeşlerin üzerine bir mutant ordusu salınır. Bu durum karşısında ne yapacaklarını bilmeyen kardeşler, başlarına gelenlerin boyutunu anlamaya başlarlar. Ancak onlar, hiçbir zaman ne olursa olsun pes etmeyi düşünmezler. Başlarından büyük işlere kalkıştıklarının farkında olan Kaplumbağa kardeşler, bu zorlu mücadelenin üstesinden gelmek için birlik olurlar. Kendi hayatlarını riske atarak, sevdikleri şehri ve insanları korumak için her türlü tehditle yüzleşmeye kararlıdırlar. Kendilerine yepyeni bir hayat kurmak ve insanlar arasında kabul görmek için verdikleri bu mücadele, onları gerçek birer kahramana dönüştürecektir.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "Mikilancelo.png",
+          "name": "Mikilancelo"
+        },
+        {
+          "id": 2,
+          "image": "Rafael.jpeg",
+          "name": "Rafael"
+        },
+        {
+          "id": 3,
+          "image": "Sredir.webp",
+          "name": "Sredir"
+        },
+        {
+          "id": 4,
+          "image": "SenseySiplinter.png",
+          "name": "Sensey Siplinter"
+        },
+        {
+          "id": 5,
+          "image": "Daniello.png",
+          "name": "Daniello"
+        },
+        {
+          "id": 6,
+          "image": "Leonardo.jpeg",
+          "name": "Leonardo"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "image": "OppenheimerCards.webp",
+      "title": "Oppenheimer",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "OppenhaimerVideoimg.jpg",
+      "trailer": "Oppenheimer.Video.mp4",
+      "inform": "J. Robert Oppenheimer, II. Dünya Savaşı sırasında gerçekleştirilen Manhattan Projesi'nde yer alan Los Alamos Laboratuvarı'nda çalışmalar yürüten bir teorik fizikçiydi. Bu projenin amacı, dünyanın ilk nükleer silahını üretmekti ve Oppenheimer, bu hedefi gerçekleştirmedeki önemli bir rol oynadı. Oppenheimer, bilim dünyasında büyük bir prestije sahip olan bir isimdi ve atom bombasının icat edilmesindeki liderlerden biriydi. Ta ki kendisi, bu proje üzerinde çalışırken trajik bir biçimde gölgede kalan bir figür haline gelene kadar. Projenin sonucunda Hiroşima ve Nagazaki'ye atılan atom bombaları, dünya tarihinde görülmemiş bir yıkıma ve insanlık için büyük bir felakete neden oldu. Oppenheimer, bu durumun farkına varır varmaz, kendi rolleri ve sorumlulukları hakkında derin bir iç hesaplaşmaya girdi. Atom bombasının icadı ve kullanılması konusunda büyük bir vicdani yük taşıyan Oppenheimer, zamanla pişmanlık ve üzüntü duydu. Oppenheimer'ın Manhattan Projesi'ndeki rolü ve sonrasında yaşadığı bu iç hesaplaşma, onu insanlık dışı bir silahın yaratıcısı olarak tanımladı. Oysaki Oppenheimer, başlangıçta bilimsel araştırmalar yapmak amacıyla projeye katılmıştı ve nükleer enerjinin barışçıl kullanımı hakkında umutlar taşıyordu. Ancak, II. Dünya Savaşı'nın etkisiyle proje, korkunç bir silah üretme amaçlı bir hedefe dönüştü. İnsanlık tarihindeki en büyük felaketlerden biri olan Hiroşima ve Nagazaki bombalamalarının ardından, Oppenheimer artık atom enerjisinin tehlikeleri konusunda uyarılarda bulunuyordu. Oppenheimer'ın Manhattan Projesi'ndeki rolü, bilimin gücünün insanlığın geleceğini şekillendirmede ne kadar büyük bir etkiye sahip olabileceğini göstermiştir. Bu deneyim, bilim insanlarının sorumluluklarını ve hangi amaçlar için çalıştıklarını önemli bir şekilde vurgulamıştır. Sonuç olarak, Oppenheimer'ın Manhattan Projesi'ndeki rolü, insanlık tarihine damga vuran bir olaydır. Atom bombasının icadı ve kullanılması, dünyayı değiştiren bir dönüm noktası olmuştur. Bu olay, bilimin gücünün yanı sıra insanın vicdani sorumluluğunu ve etik değerlerini de sorgulamamıza neden olmuştur.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "CillianMurphy.webp",
+          "name": "Cillian Murphy"
+        },
+        {
+          "id": 2,
+          "image": "RobertDowneyJr.jpg",
+          "name": "Robert Downey Jr"
+        },
+        {
+          "id": 3,
+          "image": "MatthDamon.webp",
+          "name": "Matth Damon"
+        },
+        {
+          "id": 4,
+          "image": "EmilyBlunt.webp",
+          "name": "Emily Blunt"
+        },
+        {
+          "id": 5,
+          "image": "FlorencePugh.webp",
+          "name": "Florence Pugh"
+        },
+        {
+          "id": 6,
+          "image": "CaseyAffleck.webp",
+          "name": "Casey Affleck"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "image": "Smile-2-Carts.webp",
+      "title": "Smile-2",
+      "genre": "Herror",
+      "view": "4k",
+      "desc": "Smile-2-videoimg.jpg",
+      "trailer": "Smile-2-video.mp4",
+      "inform": "Birçok sinemaseverin ve eleştirmenin beğenisini toplayan, büyük bir gişe başarısına imza atan Smile; Rose Cotter isimli bir doktorun günün birinde bir hastasının yaptığı son dereece tuhaf bir olaya şahit olmasının ardından başından geçenleri konu alıyor. Bu travmatik olaya tanık olmasının ardından gün geçtikçe kötücül bir şeyin kendisini ele geçirdiğini fark eden Rose, hayatta kalabilmesi için tek şansının problemli geçmişiyle yüzleşmesi olduğunu keşfedecektir. Yönetmenliğini ve senaristliğini Parker Finn’in üstlendiği bu gerilim dolu yapım, IMDB’den 7.0 gibi son derece başarılı bir puan alıyor. İlk olarak 30 Eylül 2022 tarihinde izleyicilerin beğenisine sunulan ve bunu da fazlasıyla başaran Smile, korku türünde izleyicilerin karşısına çıkıyor. 4k formatlı filmin oyuncu kadrosunda ise Sosie Bacon, Kyle Gallner, Caitlin Stasey, Jessie T. Usher, Rob Morgan ve Kal Penn gibi isimler bulunuyor. Rose Cotter, bir psikiyatri koğuşunda çalışan; genç bir psikiyatristtir. Kısa süre önce profesörünün intihar ederek hayatını sonlandırdığını iddia eden Laura Weaver ile tanışan Rose, ondan gülümseyen bir insan şeklini alan bir iblis tarafından takip edildiğini öğrenir. Aradan geçen bir sürenin ardından ruh hali gittikçe kötü bir hal alan Laura’ın hayatına son verdiğine şahit olan Rose, aynı zamanda onun ölmeden önce kendisine gülümsediğini gördüğünde; büyük bir endişe yaşamaya başlar. Başına gelen ürkütücü olaylar bunlarla sınırlı kalmayan genç kadın, bir süre sonra başka hastaların kendisine gülümsediğini ve onların kendisine öleceğini söylemesiyle birlikte daha da kötü bir hal almaya başlar. Rose’un durumunun pek iyiye gitmediğini fark eden Dr. Morgan, genç kadına bir hafta kafasını toplayabilmesi ve kendisine gelebilmesi için izin verir. Ancak bu izin, Rose’a iyi gelmesi şöyle bir dursun; genç kadının birbirinden korkutucu olaylar yaşamasına neden olacaktır. Kedisinin ölümüyle başlayan birbirinden gizemli olaylar yaşayan Rose, gün geçtikçe akıl sağlığını yitirmeye başlar. Bu durumdan kurtulabilmenin tek yolu ise karanlık geçmişiyle yüzleşmek olacaktır.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "LukasGage.jpeg",
+          "name": "Lukas Gage"
+        },
+        {
+          "id": 2,
+          "image": "NaomiScott.jpeg",
+          "name": "Naomi Scott"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "image": "StealthCardss.webp",
+      "title": "Stelth",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "StealthVideoimg.jpeg",
+      "trailer": "StealthVideo.mp4",
+      "inform": "Yakın gelecekte, ABD Donanması, şaşırtıcı yük, menzil, hız ve gizli yeteneklere sahip tek kişilik bir savaş uçağı olan F / A-37 Talon'u geliştiriyor. Her ne kadar yüzlerce pilot program için başvuruda bulunsa da, bu çok gizli ve dolayısıyla kasıtlı olarak küçük tutuluyor. Programda Teğmen Ben Gannon, Kara Wade ve Henry Purcell tarafından kullanılan üç uçak yer alıyor. Yüzbaşı George Cummings da genel başkan. Cummings, programı ilerleten insansız bir jeti kontrol etmek için yapay bir zeka (EDI) geliştirmek için Dr. Keith Orbit'i işe alıyor. EDI, pilotlardan savaş manevraları öğrenmek için Filipin Denizi'ndeki USS Abraham Lincoln'deki diğerlerine katılıyor. Bu, insan pilotların savaşın çirkinliği konusunda hem yaratıcılığa hem de ahlaki yargıya sahip olmalarına dayanıyor. Ekip, Rangoon şehir merkezindeki bir konferansta beklenmedik bir şekilde ortaya çıkan üç terörist üzerinde EDI eğitiliyor. EDI, görev başarısının ancak bir insan pilotun kaybıyla ve hasarla mümkün olduğunu hesaplar. Komutan, EDI'ye ateş etmesini emreder, ancak Gannon emri göz ardı eder. Takım Lincoln'e döndüğünde, EDI sinirsel modellerini yeniden programlanır. EDI'nın katlanarak öğrendiği, ilkel bir etik kod ve bir ego geliştirdiği keşfedilse de, Cummings bunu çevrimdışı yapmayı reddeder.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "JamieFoxx.jpeg",
+          "name": "Jamie Foxx"
+        },
+        {
+          "id": 2,
+          "image": "JessicaBiel.jpeg",
+          "name": "Jessica Biel"
+        },
+        {
+          "id": 3,
+          "image": "JoeMorton.jpeg",
+          "name": "Joe Morton"
+        },
+        {
+          "id": 4,
+          "image": "JoshLucas.jpeg",
+          "name": "Josh Lucas"
+        },
+        {
+          "id": 5,
+          "image": "RichardRoxburgh.jpeg",
+          "name": "Richard Roxburgh"
+        },
+        {
+          "id": 6,
+          "image": "SamShepard.jpeg",
+          "name": "Sam Shepard"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "image": "teenWolfCards.webp",
+      "title": "Teen Wolf",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "teen-wolfVideoimg.jpg",
+      "trailer": "teenWolfVideo.mp4",
+      "inform": "Yayınlanan televizyon dizisiyle birlikte izleyicilerin büyük ilgisini ve beğenisini toplamayı başaran Teen Wolf: The Movie, aynı dizisi gibi son derece beğenilecek filmini de sinemaseverlerle buluşturuyor. Dizinin konusuna ve karakterlerine bağlı kalınan bu yapımda, uzun yıllar huzur ve barışın hakim olduğu Beacon Hills’te; yepyeni bir tehlike ortaya çıkacaktır. Şimdiye kadar Beacon Hills’in karşılaştığı en büyük ve en güçlü bu tehlikeyle savaşmak için tüm şekil değiştirenlerin bir araya gelmesi gerekecek ve bu birlikteliği sağlayabilecek tek kişi ise Scot McCall olacaktır. İlk gösterimini 26 Ocak 2023 tarihinde yapan bu filmin yönetmenliğini Russell Mulcahy üstlenirken, 4k filmin senaryosu ise Jeff Davis’in imzasını taşıyor. Aksiyon, dram ve fantastik türlerde izleyicisinin karşısına çıkan yapım; IMDB’den de 6.9 puan alıyor. Oyuncu kadrosunda Tyler Posey, Crystal Reed, Holland Roden, Tyler Hoechlin, Shelley Hennig, Ian Bohen ve daha birçok ünlü ismin bulunduğu filmin hikayesi ise şöyle gelişiyor … Bu zamana kadar birçok şekil değiştiren arasında meydana gelen birçok savaşa ev sahipliği yapan Beacon Hills kasabasına bir süre önce barış gelmiş ve kasabadaki herkes uzun yıllar boyunca huzurlu bir şekilde yaşamıştır. Ancak dolunayın yükselmesiyle birlikte bu huzur, yavaş yavaş kaybolmak üzeredir. Çünkü bu dolunay, beraberinde kasabaya daha öncekilerden çok daha güçlü bir tehlikeyi getirmiş ve hem şekil değiştirenlerin; hem de kasabada yaşayan sıradan insanların hayatı büyük bir tehlike altına girmiştir. Böylesine bir tehlikeyle karşılaşan kasabanın, bu tehlikeyle savaşabilmesinin tek yolu ise; Banshee’lerin, Werecoyote’lerin, Hellhound’ların, Kitsune’lerin ve daha birçok şekilde değiştirenlerin bir araya gelip iş birliği yapması olacaktır. Ancak tüm bu şekil değiştirenleri bir araya getirmek pek de kolay olmayacaktır. Bu birlikteliği sağlayabilecek tek kişi olan alfa kurt Scott McCall (Tyler Posey), eğer yeni ve eski dostlarını bir araya getiremezse; çocukluğunun geçtiği ve dostlarının yaşadığı kasabanın yıkımına tanıklık edecektir. Artık her şey, Scott McCall’a bağlıdır.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "MiekoHillman.jpeg",
+          "name": "Mieko Hillman"
+        },
+        {
+          "id": 2,
+          "image": "MaxCarver.jpg",
+          "name": "Max Carver"
+        },
+        {
+          "id": 3,
+          "image": "JohnWesleyShipp.jpeg",
+          "name": "John Wesley Shipp"
+        },
+        {
+          "id": 4,
+          "image": "HillaryBrant.jpeg",
+          "name": "Hillary Brant"
+        },
+        {
+          "id": 5,
+          "image": "DesireeHall.jpeg",
+          "name": "DesireeHall"
+        },
+        {
+          "id": 6,
+          "image": "AdamRosenberg.jpeg",
+          "name": "Adam Rosenberg"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "image": "transform7Cards.webp",
+      "title": "Transform-7",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "transform7Videoimg.jpeg",
+      "trailer": "transform7Video.mp4",
+      "inform": "Birçok izleyicinin izlerken fazlasıyla keyif aldığı ve sinema dünyasında kendisine değiştirilmez bir yer edinmeyi başarmış olan Transformers serisinin altıncı filmi olan Transformers: Rise of the Beasts, tam 6 yıllık aranın ardından bir kez daha sinemaseverlerin karşısına çıkıyor. İlk olarak 2007 yılında çıkan Transformers filmiyle beyazperdeye merhaba diyen serinin altıncı filmi olan bu yapımda, sinemaseverler 90-lı yılların havasını sonuna kadar içine çekecek. Transformers dünyasının daha önce görülmeyen üyeleri Maximal ve Terroconları göreceğimiz bu yapımda, yıllardır süregelmekte olan Autobot ve Decepticonların savaşına da bir an olsun ara verilmeyecek. Kendilerini bu iki grubun arasında bulan diğer Transformer üyeleri, kendilerine bir taraf seçmek zorunda kalacaktır. Yönetmenliğini Steven Caple Jr.’ın üstleneceği bu yapımın hikayesi ise Matt Holloway, Art Marcum ve Ken Nolan’ın elinden çıkacak. Aksiyon, macera ve bilim kurgu türlerinde sinemaseverlerin karşısına çıkacak olan bu yeni Transformers filmi; sinemaseverlerin 2023 yılında izlemek için sıraya girdikleri filmlerin kesinlikle başında gelecektir. Bir önceki filmlere göre biraz daha farklı bir hikayeyle sinemaseverlerin karşısına çıkacak olan yapım, hiç şüphesiz her zaman olduğu gibi izleyicilere heyecan dolu bir deneyim sunacaktır. Amerika Birleşik Devletleri yapımı olan Transformers serisinin yeni filminin çıkış tarihinin ise 9 Haziran 2023 olması bekleniyor. 4k formatlı filmin oyuncu kadrosunda da Michelle Yeoh, Pete Davidson, Ron Perlman, Anthony Ramos ve Peter Cullen gibi isimler bulunacak.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "NoahDiaz.jpg",
+          "name": "Noah Diaz"
+        },
+        {
+          "id": 2,
+          "image": "LunaLaurenVelez.jpeg",
+          "name": "Luna Lauren Velez"
+        },
+        {
+          "id": 3,
+          "image": "SarahStiles.jpg",
+          "name": "Sarah Stiles"
+        },
+        {
+          "id": 4,
+          "image": "TobeNwigwe.jpeg",
+          "name": "Tobe Nwigwe"
+        },
+        {
+          "id": 5,
+          "image": "JobyHarold.jpeg",
+          "name": "Joby Harold"
+        },
+        {
+          "id": 6,
+          "image": "DeanScottVazquez.jpeg",
+          "name": "Dean Scott Vazquez"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "image": "U.B.Y.Bcards.webp",
+      "title": "Uc Bin Yillik Bekleyis",
+      "genre": "Fantastik",
+      "view": "4k",
+      "desc": "U.B.Y.B.Videoimg.jpg",
+      "trailer": "U.B.Y.B..Video.mp4",
+      "inform": "Three Thousand Years of Longing , hayatını kavanozun içerisinde hapsedilmiş bir şekilde geçiren bir cin ile Alithea isimli bir bilgenin aralarında bir anlaşma yapmalarının ardından aralarında geçen olaylar konu alıyor. Cin, eğer Alithea kendisinin özgürlüğünü kazanmasına yardım edebilirse; onun üç dileğini yerine getirebileceğini söyler. Fakat ikilinin anlaşmaları, pek de bekledikleri gibi ilerlemeyecektir. Sevilen yönetmen George Miller’in yönetmenlik koltuğunda oturduğu bu keyifli yapımın senaristliğini ise yine George Miller , A.S. Byatt ve Augusta Gore üstleniyor. Dram, fantastik ve romantik türlerinde karşımıza çıkan yapım; IMDB’den de 6.8 puan alıyor. 4k formattaki filmin oyuncu kadrosunda ise Tilda Swinton ve Idris Elba bulunuyor. İngiliz bir bilim insanı olan Alithea Binnie, zaman zaman bazı gizemli varlıklarla karşılaştığı tuhaf halisünasyonlar gören; yalnız bir kadındır. Günün birinde İstanbul’a bir geziye giden Alithea, burada garip antika bir şişe satın alır. Daha sonra Alithea, istemeden olsa şişenin içerisinde sıkışan bir cini serbest bırakır. Bunun ardından Cin, kendisini serbest bıraktığı için Allithea’ya eğer gerçekleşmesi içten  istiyorsa gerçekleştirilecek olan üç dilek hakkı sunar. Ancak Alithea, dilek tutmanın yanlış bir şey olduğunu söyleyerek; bu nedenden dolayı Cin’i suçlamaya başlar. Bunun ardından Alithea’ya suçlamaları karşısında hiçbir şey söylemeyen Cin, ona geçmişinden üç hikayeyi ve en sonunda nasıl bu şilenin içerisinde sıkıştığını anlatmaya başlar. İlk başlarda Cin, Alithea’ya Kral Solomon’un kendisini bir şişeye hapsettiğini söyler. Daha sonra Cin, Kanuni Sultan Süleyman’ın sarayında yaşayan genç bir cariye olan Gülten’in kendisini nasıl bulduğunu ve ondan yerine getirmesi için dilek dilemesinin ardından yaşadıklarını anlatır. Dilediği dileklerden sonra başına gelmedik olay kalmayan Gülten, en sonunda şişeyi bırakıp kaçar. Hikayelerine devam ettikçe kendisini Cin’e daha da yakın hissetmeye başlayan Alithea, en sonuna kendisini ona aşık olmuş olarak bulacak ve üç dileğini dileyecektir. Bu üç dileğin en sonuncusu da, Cin’in özgür kalabilmesi için olacaktır.",
+      "actors": [
+        {
+          "id": 1,
+          "image": "TildaSwinton.jpg",
+          "name": "Tilda Swinton"
+        },
+        {
+          "id": 2,
+          "image": "IdrisElba.jpeg",
+          "name": "Idris Elba"
+        },
+        {
+          "id": 3,
+          "image": "EceYüksel.jpeg",
+          "name": "Ece Yüksel"
+        },
+        {
+          "id": 4,
+          "image": "LachyHulme.jpeg",
+          "name": "Lachy Hulme"
+        },
+        {
+          "id": 5,
+          "image": "MeganGale.jpeg",
+          "name": "Megan Gale"
+        },
+        {
+          "id": 6,
+          "image": "AamitoLagum.jpg",
+          "name": "Aamito Lagum"
+        }
+      ]
+    }
   ]
 }
