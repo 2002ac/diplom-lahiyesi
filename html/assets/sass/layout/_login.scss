@@ -1,13 +1,10 @@
-main {
+
   .container {
 
       #login_section {
           width: 100%;
           height: 100vh;
-          background-image: url("https://img.freepik.com/free-vector/computer-login-concept-illustration_114360-7962.jpg?w=740&t=st=1687101734~exp=1687102334~hmac=3141c45425da0c6aaf9572d556b883b20162845cab06d0524d191de4dbbcce65");
-          background-position: center;
-          background-size: cover;
-          background-repeat: no-repeat;
+          background-color: #1e1e2a;
 
           .form_box {
               position: relative;
@@ -116,4 +113,3 @@ main {
           }
       }
   }
-}
