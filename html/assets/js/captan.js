@@ -1,7 +1,11 @@
-let playButton = document.querySelector(".play-movie");
-let closeBtn = document.querySelector(".close-video");
-let video = document.querySelector(".video-container");
-let myVideo = document.querySelector("#myvideo");
+
+
+const body = document.querySelector(".play-container");
+
+
+
+
+
 console.log(playButton);
 playButton.onclick = () => {
   console.log("hdjsds");
@@ -12,5 +16,3 @@ closeBtn.onclick = () => {
   video.classList.remove("show-video");
   myVideo.pause();
 };
-
-getData();
